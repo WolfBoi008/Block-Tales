@@ -1,0 +1,87 @@
+{
+    "Minigames": {
+        "hidden": true
+    },
+    "Solo Mode": {
+        "yaml_option": ["solo_mode"],
+        "hidden": true
+    },
+    "I Spy Logic": {
+        "yaml_option": ["i_spy_logic"]
+    },
+    "Shopsanity": {
+        "yaml_option": ["shopsanity"],
+        "hidden": true
+    },
+    "Bizville BUX Shop": {
+        "yaml_option": ["bux_shop"]
+    },
+    "BUX Shop Hints": {
+        "yaml_option": ["bux_shop_hints"]
+    },
+    "Levelsanity": {
+        "yaml_option": ["levelsanity"]
+    },
+    "Fishsanity": {
+        "yaml_option": ["fishsanity"],
+        "hidden": true
+    },
+    "The Pit": {
+        "yaml_option": ["the_pit"]
+    },
+    "Chatsanity": {
+        "yaml_option": ["chatsanity"],
+        "hidden": true
+    },
+    "CAP": {
+        "yaml_option": ["cap"],
+        "hidden": true
+    },
+    "Cutscenesanity": {
+        "yaml_option": ["cutscenesanity"],
+        "hidden": true
+    },
+    "Soul Type": {
+        "yaml_option": ["soul_type"],
+        "hidden": true
+    },
+    "Co-Op": {
+        "yaml_option": ["co_op"],
+        "hidden": true
+    },
+    "Shopsanity Currency": {
+        "yaml_option": ["shopsanity_currency"]
+    },
+    "Pure Soul": {
+        "yaml_option": ["pure_soul"],
+        "hidden": true
+    },
+    "Dark Soul": {
+        "yaml_option": ["dark_soul"],
+        "hidden": true
+    },
+    "Pre-Prologue": {
+        "yaml_option": ["pre_prologue"],
+        "hidden": true
+    },
+    "Prologue": {
+        "yaml_option": ["prologue"],
+        "hidden": true
+    },
+    "Chapter 1": {
+        "yaml_option": ["chapter1"],
+        "hidden": true
+    },
+    "Chapter 2": {
+        "yaml_option": ["chapter2"],
+        "hidden": true
+    },
+    "Chapter 3": {
+        "yaml_option": ["chapter3"],
+        "hidden": true
+    },
+    "Chapter 4": {
+        "yaml_option": ["chapter4"],
+        "hidden": true
+    }
+}

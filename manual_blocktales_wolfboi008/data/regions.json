@@ -1,0 +1,75 @@
+{
+  "Future Bizville": {
+    "starting": true,
+    "connects_to": ["Bizville"],
+    "requires": []
+  },
+  "Bizville": {
+    "connects_to": ["Roblox HQ", "Plains", "Train", "The Pit"],
+    "requires": []
+  },
+  "Roblox HQ": {
+    "connects_to": ["Meadows"],
+    "requires": []
+  },
+  "Meadows": {
+    "connects_to": ["Caves"],
+    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword|"
+  },
+  "Caves": {
+    "connects_to": ["Roadtown"],
+    "requires": []
+  },
+  "Roadtown": {
+    "connects_to": ["Mountains"],
+    "requires": "|Ball|"
+  },
+  "Mountains": {
+    "connects_to": ["Blackrock Castle"],
+    "requires": "|Adventurer ID|"
+  },
+  "Blackrock Castle": {
+    "connects_to": [],
+    "requires": "{canReachLocation(Dynamite)} AND |Dynamite|"
+  },
+  "The Pit": {
+    "connects_to": [],
+    "requires": []
+  },
+  "Plains": {
+    "connects_to": ["Turitopulis"],
+    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  "Turitopulis": {
+    "connects_to": ["Rainforest"],
+    "requires": []
+  },
+  "Rainforest": {
+    "connects_to": ["Sacred Hollow"],
+    "requires": "|Jeep Keys|"
+  },
+  "Sacred Hollow": {
+    "connects_to": [],
+    "requires": "|Rocket Boots| AND |Iron Sword|"
+  },
+  "Train": {
+    "connects_to": ["Spooksville"],
+    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
+  },
+  "Spooksville": {
+    "connects_to": ["Telamon's Manor"],
+    "requires": []
+  },
+  "Telamon's Manor": {
+    "connects_to": ["Catacombs"],
+    "requires": []
+  },
+  "Catacombs": {
+    "connects_to": ["Dream World"],
+    "requires": "|Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion|"
+  },
+  "Dream World": {
+    "connects_to": [],
+    "requires": "|Hyperball|"
+  }
+}

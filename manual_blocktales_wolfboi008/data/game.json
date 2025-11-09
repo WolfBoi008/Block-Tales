@@ -1,0 +1,8 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "BlockTales",
+  "creator": "WolfBoi008",
+  "filler_item_name": "TIX",
+  "starting_items": [],
+  "death_link": true
+}

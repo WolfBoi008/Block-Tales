@@ -1,0 +1,1767 @@
+[
+  {
+    "count": 1,
+    "name": "Superball",
+    "category": [
+      "Prologue",
+      "Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wooden Sword",
+    "category": [
+      "Prologue",
+      "Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Iron Sword",
+    "category": [
+      "Chapter 2",
+      "Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hyperball",
+    "category": [
+      "Chapter 3",
+      "Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ball",
+    "category": [
+      "Prologue",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dynamite",
+    "category": [
+      "Chapter 1",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shrinking",
+    "category": [
+      "Chapter 1",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rocket Boots",
+    "category": [
+      "Chapter 2",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ghost Potion",
+    "category": [
+      "Chapter 3",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Adventurer ID",
+    "category": [
+      "Chapter 1",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 3,
+    "name": "Blackrock Castle Key",
+    "category": [
+      "Chapter 1",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blackrock Diner Key",
+    "category": [
+      "Chapter 1",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mysterious Bottle",
+    "category": [
+      "Chapter 1",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Jeep Keys",
+    "category": [
+      "Chapter 2",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Train Ticket",
+    "category": [
+      "Chapter 3",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Raw Turkey",
+    "category": [
+      "Chapter 3",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spider",
+    "category": [
+      "Chapter 3",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dust",
+    "category": [
+      "Chapter 3",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ice Dagger",
+    "category": [
+      "Chapter 2",
+      "Swords"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Venomshank",
+    "category": [
+      "Chapter 3",
+      "Swords"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ghostwalker",
+    "category": [
+      "Chapter 4",
+      "Swords"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Training Wheels",
+    "category": [
+      "Pre-Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Power Stab",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Slow Go",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 3,
+    "name": "HP+",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Minimize",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-G",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Cure",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-B",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-Y",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Bodyguard",
+    "category": [
+      "Prologue",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Refund",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Charge",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "SP Finder",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Good Vibes",
+    "category": [
+      "Prologue",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "HP Finder",
+    "category": [
+      "Chapter 3",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Sacrifice",
+    "category": [
+      "Prologue",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Defender",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "HP Drain",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "SP Drain",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pity SP",
+    "category": [
+      "Prologue",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Thorns",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Lucky Start",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Item+",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Happy HP",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "SP Saver",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Happy SP",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "SP Regen+",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ante Up",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Defend+",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "I Spy",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "SP Wire",
+    "category": [
+      "Chapter 2",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Speed Spin",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Charge DEF",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Power Rush",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Prayer",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Comatose",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Slingshot",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Launcher",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Snowball",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "SP+",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cannonball",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Call: Red n' Blue",
+    "category": [
+      "Chapter 3",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Call: Cruel King",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Investor",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Daze",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Free Ice",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Deep Focus",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Linebounce",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Fireball",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Softener",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sword Toss",
+    "category": [
+      "Chapter 3",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Power Shot",
+    "category": [
+      "Chapter 3",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Free Poison",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Free Fire",
+    "category": [
+      "Chapter 3",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Feel Fine",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Resurrect",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sacrifice+",
+    "category": [
+      "Chapter 3",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Call: Gorilla",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Safe Guard",
+    "category": [
+      "Chapter 1",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 5,
+    "name": "Anchor",
+    "category": [
+      "Prologue",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-R",
+    "category": [
+      "Prologue",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Infect",
+    "category": [
+      "Chapter 2",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 50,
+    "name": "BUX",
+    "category": [
+      "Prologue",
+      "Shopsanity Currency"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Apple Juice",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Bloxy Cola",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cheezburger",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Double Cheezburger",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Stinky Latte",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Bomb",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Onion Ring",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Candy Cane",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ROBAR",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Taco",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Brownie/Bitten Brownie",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cake",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Iron's Choice",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Coffee",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Forbidden Drink",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "College Coolaid",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Iron Cafe's Special",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Storm Tea",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dizzy Dial",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Hot Chocolate",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Worm",
+    "category": [
+      "Prologue",
+      "Consumables",
+      "Fishsanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pufferfish",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Goldfish",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blue Clownfish",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Yellow Clownfish",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Trout",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Jellyfish",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Eel",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Seahorse",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shark",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Whale",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tickle Stick",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ice Storm",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Magnifying Glass",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Clownfish Fillet",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Vanilla Ice Cream",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Chocolate Ice Cream",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Strawberry Ice Cream",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Jumbo Ice Cream",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Banana Split",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Papaya",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Biscuit",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Lemon Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Macaron",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Gulab Jamun",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Bahulu",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pomegranate Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Jasmine Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Green Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Masala Tea",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dumpling",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cinnamon Roll",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Hot Leaf Juice",
+    "category": [
+      "Chapter 2",
+      "Consumables",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Apple Core",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Coconut",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lemon",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Banana",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Apple",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Lime",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Orange",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mango",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Red Pepper",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pineapple",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Green Pepper",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Watermelon",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Jackfruit",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pumpkin",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Orange Juice",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Epicsauce",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mr Batty",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Applesauce",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shark Fin Soup",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pie",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cookie",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cherry",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Haunted Cheezburger",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pumpkin Pi",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cookie Dough",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cherry Bomb",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Whole Pizza",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Witches Brew",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Glue",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Hypno Glasses",
+    "category": [
+      "Prologue",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Coconut Water",
+    "category": [
+      "Chapter 2",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Milkshake",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mistake",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Slateskin Potion",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Compost",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "First Aid Kit",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Gulab Kulfi",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Smoked Trout",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Fugu Chiri",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Grilled Jellyfish",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Seahorse Kebab",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unadon",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Baked Whale",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Apple Pie",
+    "category": [
+      "Chapter 1",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Malay Spongecake",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Poison Cake",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Cherry Pie",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Matcha Dorayaki",
+    "category": [
+      "Chapter 3",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
+    "name": "Additional Party Member",
+    "category": [
+      "Allies",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Hard Mode",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Thick Skull",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Double Pain",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Gusto",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Thrill Seeker",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, No Items",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, No Guarding",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, No Cards",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Next Fight, Tick Tock",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  }
+]
