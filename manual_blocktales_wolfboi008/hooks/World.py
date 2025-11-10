@@ -134,7 +134,7 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
             item.classification = ItemClassification.useful
         goal_name = world.victory_names[world.options.goal]
         if goal_name == "Beat the Prologue" or "Beat Chapter 1":
-            if world.options.disable_postgoal_content.value == True and world.options.shopsanity.value == False and item.name == "BUX":
+            if world.options.disable_postgoal_content.value == True and world.options.bux_shop.value == False and item.name == "BUX":
                 item.classification = ItemClassification.useful
     return item_pool
 
