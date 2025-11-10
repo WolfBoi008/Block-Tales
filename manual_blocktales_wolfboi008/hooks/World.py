@@ -55,6 +55,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
         world.options.chapter2.value = False
         world.options.chapter3.value = False
         world.options.chapter4.value = False
+        # This next if section's intent is to make the BUX Shop Checks not in Shopsanity if you're running Prologue, both because it's kinda too early to run the BUX Shop and actually send a lot from it, but also to make the 50 BUX associated with it Useful instead of Progression, as seen below in "after_create_items".
         if world.options.shopsanity.value == True:
             world.options.bux_shop.value = False
     if goal_name == "Beat Chapter 1" and world.options.disable_postgoal_content.value == True:
