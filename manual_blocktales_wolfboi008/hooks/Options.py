@@ -50,17 +50,26 @@ class ISpyLogic(DefaultOnToggle):
 class Shopsanity(Toggle):
     """
     Add all of the items you can purchase in Shops as Checks.
-    You do NOT have to buy everything in the Shops if you can't afford it.
-    Just get to a Shop and you can send its Checks.
-    Clarifying that now so people don't start grinding TIX for Shop Checks.
+    NOTICE: You do NOT have to buy everything in the Shops if you can't afford it. Just get to a Shop and you can send its Checks. Clarifying that now so people don't start grinding TIX for Shop Checks.
     (178 Checks)
     """
     display_name: "Shopsanity"
+
+class BUXShop(Toggle):
+    """
+    Enable Checks for the BUX Shop.
+    Also makes all of the BUX in the pool into Progression items, as the Shop expects you to have all of the BUX
+    in the pool before buying any of the Checks (to prevent any potential logical breaks).
+    NOTICE: If Shopsanity is disabled or your Goal is either Prologue or Chapter 1, this will be forced to disabled.
+    (20 Checks)
+    """
+    display_name: "BUX Shop"
 
 class BUXShopHints(DefaultOnToggle):
     """
     Toggle if the BUX Shop Checks will be automatically hinted at the start of the Multiworld.
     Disable if you want the items that are held in your BUX Shop to be a mystery...
+    NOTICE: If Shopsanity is disabled, this will be forced to disabled.
     """
     display_name: "BUX Shop Hints"
 
@@ -147,6 +156,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["solo_mode"] = SoloMode
     options["i_spy_logic"] = ISpyLogic
     options["shopsanity"] = Shopsanity
+    options["bux_shop"] = BUXShop
     options["bux_shop_hints"] = BUXShopHints
     options["levelsanity"] = Levelsanity
     options["fishsanity"] = Fishsanity
@@ -168,7 +178,6 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
     options.type_hints["co_op"].visibility = Visibility.none
-    options.type_hints["bux_shop"].visibility = Visibility.none
     options.type_hints["shopsanity_currency"].visibility = Visibility.none
     options.type_hints["pure_soul"].visibility = Visibility.none
     options.type_hints["dark_soul"].visibility = Visibility.none

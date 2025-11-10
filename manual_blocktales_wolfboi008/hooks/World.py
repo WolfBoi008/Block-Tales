@@ -42,7 +42,10 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options.solo_mode.value == True:
         world.options.co_op.value = False
     if world.options.shopsanity.value == False:
+        world.options.bux_shop.value == False
         world.options.shopsanity_currency.value = False
+    if world.options.shopsanity.value == False or world.options.bux_shop.value == False:
+        world.options.bux_shop_hints.value = False
     if world.options.chatsanity.value == True and world.options.cap.value == 1:
         raise OptionError(f"{world.player_name} must agree to the CAP form in order to enable Chatsanity. Please either agree to the CAP form or disable Chatsanity. Thank you.")
     if world.options.soul_type.value == 0:
@@ -50,25 +53,26 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options.soul_type.value == 1:
         world.options.pure_soul.value = False
     goal_name = world.victory_names[world.options.goal]
-    if goal_name == "Beat the Prologue" and world.options.disable_postgoal_content.value == True:
-        world.options.chapter1.value = False
-        world.options.chapter2.value = False
-        world.options.chapter3.value = False
-        world.options.chapter4.value = False
-        # This next if section intends to make the BUX Shop Checks not in Shopsanity if you're running Prologue, both because it's kinda too early to run the BUX Shop and actually send a lot from it, but also to make it safe to assign the 50 BUX associated with it as Useful instead of Progression to reduce how many Progression items are in the pool, as seen below in "after_create_items". The same thing is done in the if statement for Chapter 1 Goal, too.
-        if world.options.shopsanity.value == True:
-            world.options.bux_shop.value = False
-    if goal_name == "Beat Chapter 1" and world.options.disable_postgoal_content.value == True:
-        world.options.chapter2.value = False
-        world.options.chapter3.value = False
-        world.options.chapter4.value = False
-        if world.options.shopsanity.value == True:
-            world.options.bux_shop.value = False
+    if goal_name == "Beat the Prologue":
+        world.options.bux_shop.value = False
+        if world.options.disable_postgoal_content.value == True:
+            world.options.chapter1.value = False
+            world.options.chapter2.value = False
+            world.options.chapter3.value = False
+            world.options.chapter4.value = False
+    if goal_name == "Beat Chapter 1":
+        world.options.bux_shop.value = False
+        if world.options.disable_postgoal_content.value == True:
+            world.options.chapter2.value = False
+            world.options.chapter3.value = False
+            world.options.chapter4.value = False
     if goal_name == "Beat Chapter 2" and world.options.disable_postgoal_content.value == True:
         world.options.chapter3.value = False
         world.options.chapter4.value = False
-    if goal_name == "Beat The Pit" and world.options.disable_postgoal_content.value == True:
-        raise OptionError(f"{world.player_name} has the latest possible Goal selected with Disable PostGoal Content enabled. I do not wish to test what could happen with both of them enabled when there shouldn't be anything to remove. Please either select a different Goal or disable the Disable PostGoal Content setting. Thanks.")
+    if goal_name == "Beat The Pit":
+        world.options.the_pit.value = True
+        if world.options.disable_postgoal_content.value == True:
+            raise OptionError(f"{world.player_name} has the latest possible Goal selected with Disable PostGoal Content enabled. I do not wish to test what could happen with both of them enabled when there shouldn't be anything to remove. Please either select a different Goal or disable the Disable PostGoal Content setting. Thanks.")
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -133,8 +137,8 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
         if world.options.i_spy_logic.value == False and item.name == "I Spy":
             item.classification = ItemClassification.useful
         goal_name = world.victory_names[world.options.goal]
-        if goal_name == "Beat the Prologue" or "Beat Chapter 1":
-            if world.options.disable_postgoal_content.value == True and world.options.bux_shop.value == False and item.name == "BUX":
+        if goal_name == "Beat the Prologue":
+            if world.options.bux_shop.value == False and item.name == "BUX":
                 item.classification = ItemClassification.useful
     return item_pool
 
