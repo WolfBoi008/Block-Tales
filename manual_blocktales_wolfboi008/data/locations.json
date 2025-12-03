@@ -1610,7 +1610,7 @@
       "East HQ Basement",
       "Key Items"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "BUX Behind Spa",
@@ -1950,7 +1950,7 @@
       "Haunted Manor Master Bedroom",
       "Key Items"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider|"
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Turkey",
@@ -2298,7 +2298,7 @@
       "Cave Hideout",
       "Cards"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball|"
   },
   {
     "name": "Bizville BUX in Library",
@@ -9973,7 +9973,7 @@
       "East HQ Basement",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Train Arrives Cutscene",
@@ -9983,7 +9983,7 @@
       "West Bizville",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Bort",
@@ -9993,7 +9993,7 @@
       "West Bizville",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Gus",
@@ -10003,7 +10003,7 @@
       "West Bizville",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Cat (Train Station)",
@@ -10013,7 +10013,7 @@
       "West Bizville",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Hades",
@@ -10023,7 +10023,7 @@
       "West Bizville",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Conductor",
@@ -10033,7 +10033,7 @@
       "West Bizville",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"  
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Hopping on the Train Cutscene",
@@ -10043,7 +10043,7 @@
       "West Bizville",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Aloe (Shop Owner)",
