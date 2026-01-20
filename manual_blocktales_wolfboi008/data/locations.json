@@ -8283,7 +8283,7 @@
       "Blackrock Throne Room",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:2| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
     "name": "Cruel King Defeated Cutscene",
@@ -8293,7 +8293,7 @@
       "Blackrock Throne Room",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:2| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
     "name": "Friendly Rat",
