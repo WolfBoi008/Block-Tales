@@ -30,7 +30,7 @@
   },
   "Blackrock Castle": {
     "connects_to": [],
-    "requires": "{canReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "|Bomb| AND {canReachLocation(Dynamite)} AND |Dynamite|"
   },
   "The Pit": {
     "connects_to": [],

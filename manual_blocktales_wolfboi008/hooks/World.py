@@ -38,41 +38,43 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
     return False
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
-def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+def before_create_regions(world: World, multiworld: MultiWorld, player: int):    
+    # If Solo Mode is enabled, disable all Items that are "Co-op Only".
     if world.options.solo_mode.value == True:
         world.options.co_op.value = False
-    if world.options.shopsanity.value == False:
-        world.options.bux_shop.value == False
-        world.options.shopsanity_currency.value = False
-    if world.options.shopsanity.value == False or world.options.bux_shop.value == False:
-        world.options.bux_shop_hints.value = False
+    # If Chatsanity is enabled, but the CAP hasn't been "signed", force fail generation.
     if world.options.chatsanity.value == True and world.options.cap.value == 1:
         raise OptionError(f"{world.player_name} must agree to the CAP form in order to enable Chatsanity. Please either agree to the CAP form or disable Chatsanity. Thank you.")
+    # If the Soul Type is set to Pure, disable all Dark-exclusive Checks, and vice versa.
     if world.options.soul_type.value == 0:
         world.options.dark_soul.value = False
     if world.options.soul_type.value == 1:
         world.options.pure_soul.value = False
-    goal_name = world.victory_names[world.options.goal]
-    if goal_name == "Beat the Prologue":
+    # If the Goal is to finish the Prologue, remove the BUX Shop. Also disables Chapter 1 onward if Disable PostGoal Content is enabled.
+    if world.options.goal.value == 0:
         world.options.bux_shop.value = False
         if world.options.disable_postgoal_content.value == True:
             world.options.chapter1.value = False
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
-    if goal_name == "Beat Chapter 1":
-        world.options.bux_shop.value = False
+    # If the Goal is to finish Chapter 1 and Disable PostGoal Content is enabled, disable Chapter 2 onward.
+    if world.options.goal.value == 1:
         if world.options.disable_postgoal_content.value == True:
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
-    if goal_name == "Beat Chapter 2" and world.options.disable_postgoal_content.value == True:
+    # If the Goal is to finish Chapter 2 and Disable PostGoal Content is enabled, disable Chapter 3 onward.
+    if world.options.goal.value == 2 and world.options.disable_postgoal_content.value == True:
         world.options.chapter3.value = False
         world.options.chapter4.value = False
-    if goal_name == "Beat The Pit":
-        world.options.the_pit.value = True
-        if world.options.disable_postgoal_content.value == True:
-            raise OptionError(f"{world.player_name} has the latest possible Goal selected with Disable PostGoal Content enabled. I do not wish to test what could happen with both of them enabled when there shouldn't be anything to remove. Please either select a different Goal or disable the Disable PostGoal Content setting. Thanks.")
+    # If the Goal is to finish Chapter 3 and Disable PostGoal Content is enabled, disable Chapter 4 onward.
+    if world.options.goal.value == 3 and world.options.disable_postgoal_content.value == True:
+        world.options.chapter4.value = False
+    # If the BUX Shop Checks are disabled, remove BUX from the item pool (and disable the hints for those Checks since they don't exist).
+    if world.options.bux_shop.value == False:
+        world.options.shopsanity_currency.value = False
+        world.options.bux_shop_hints.value = False
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -87,6 +89,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
+                # If the BUX Shop hints are enabled and a Location contains the string "(BUX Shop)", make the associated location hinted when the Multiworld is made.
                 if world.options.bux_shop_hints.value == 1 and "(BUX Shop)" in location.name:
                     world.options.start_location_hints.value.add(location.name)
     
@@ -132,13 +135,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     for item in item_pool:
-        if world.options.fishsanity.value == False and item.name == "Worm":
-            item.classification = ItemClassification.filler
-        if world.options.i_spy_logic.value == False and item.name == "I Spy":
-            item.classification = ItemClassification.useful
-        goal_name = world.victory_names[world.options.goal]
-        if goal_name == "Beat the Prologue":
-            if world.options.bux_shop.value == False and item.name == "BUX":
+        # Make the Worm Item a Filler Item if Fishsanity is disabled.
+        if world.options.fishsanity.value == False:
+            if item.name == "Worm":
+                item.classification = ItemClassification.filler
+        # Make the I Spy Item a Useful Item if I Spy Logic is False.
+        if world.options.i_spy_logic.value == False:
+            if item.name == "I Spy":
                 item.classification = ItemClassification.useful
     return item_pool
 
@@ -209,6 +212,7 @@ def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, 
 
 # This is called right at the end, in case you want to write stuff to the spoiler log
 def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
+    # Just a silly easter egg written into the spoiler log for people who use Chatsanity :P
     if world.options.chatsanity.value == True and world.options.cap.value == 0:
         spoiler_handle.write(f"{world.player_name} enabled Chatsanity...Oh god, what have you done...\n")
     pass
