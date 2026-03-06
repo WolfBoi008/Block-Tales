@@ -6,6 +6,7 @@
       "Pre-Prologue",
       "Weapons"
     ],
+    "early": true,
     "progression": true
   },
   {
@@ -15,6 +16,7 @@
       "Prologue",
       "Weapons"
     ],
+    "early": true,
     "progression": true
   },
   {
@@ -42,6 +44,7 @@
       "Prologue",
       "Tools"
     ],
+    "early": true,
     "progression": true
   },
   {
