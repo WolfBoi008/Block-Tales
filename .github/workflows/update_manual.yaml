@@ -1,0 +1,28 @@
+on:
+    workflow_dispatch:
+    schedule:
+      - cron: 0 0 1 * * # Runs at 00:00 on the first day of every month
+
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update manual
+        uses: silasary/ap_manuals/update-manual@main
+        with:
+          allow_unstable: 'true'
+          directory: manual_blocktales_wolfboi008
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: Update manual to latest version
+          branch: update-manual
+          labels: automated-pr
