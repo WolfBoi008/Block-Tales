@@ -41,3 +41,7 @@ def after_load_meta_file(meta_table: dict) -> dict:
 # return True if you want to trigger a regeneration if you changed anything
 def hook_interpret_slot_data(world, player: int, slot_data: dict[str, any]) -> dict | bool:
     return False
+
+
+def after_load_event_file(event_table: list) -> list:
+    return event_table
