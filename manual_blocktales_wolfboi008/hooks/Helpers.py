@@ -1,3 +1,4 @@
+from typing import Any
 from typing import Optional, TYPE_CHECKING
 from BaseClasses import MultiWorld, Item, Location
 
