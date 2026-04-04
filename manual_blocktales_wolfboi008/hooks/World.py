@@ -138,7 +138,7 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
         # Make the Worm Item a Filler Item if Fishsanity is disabled.
         if world.options.fishsanity.value == False:
             if item.name == "Worm":
-                item.classification = ItemClassification.filler
+                item.classification = ItemClassification.useful
         # Make the I Spy Item a Useful Item if I Spy Logic is False.
         if world.options.i_spy_logic.value == False:
             if item.name == "I Spy":
