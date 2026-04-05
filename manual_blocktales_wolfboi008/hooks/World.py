@@ -135,7 +135,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     for item in item_pool:
-        # Make the Worm Item a Filler Item if Fishsanity is disabled.
+        # Make the Worm Item a Useful Item if Fishsanity is disabled.
         if world.options.fishsanity.value == False:
             if item.name == "Worm":
                 item.classification = ItemClassification.useful
