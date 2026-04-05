@@ -2852,7 +2852,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "SP Wire",
+    "name": "SP Wire (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -2872,7 +2872,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Charge (In The Cards)",
+    "name": "Minimize (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -2882,7 +2882,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Charge DEF",
+    "name": "Charge DEF (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -2892,7 +2892,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Power Rush",
+    "name": "Power Rush (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -2902,7 +2902,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "HP Drain (In The Cards)",
+    "name": "Feel Fine (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -2912,27 +2912,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "SP Drain (In The Cards)",
-    "region": "Bizville",
-    "category": [
-      "Chapter 2",
-      "Bizville In The Cards Shop",
-      "Shopsanity"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Happy SP (In The Cards)",
-    "region": "Bizville",
-    "category": [
-      "Chapter 2",
-      "Bizville In The Cards Shop",
-      "Shopsanity"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Prayer",
+    "name": "Prayer (In The Cards)",
     "region": "Bizville",
     "category": [
       "Chapter 2",
