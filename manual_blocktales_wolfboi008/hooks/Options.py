@@ -89,7 +89,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (705 Checks)
+    (711 Checks)
     """
     display_name: "Chatsanity"
 
