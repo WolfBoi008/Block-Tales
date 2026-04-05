@@ -1,4 +1,4 @@
-from typing import Optional, TYPE_CHECKING
+from typing import Optional, TYPE_CHECKING, Any
 from BaseClasses import MultiWorld, Item, Location
 
 if TYPE_CHECKING:
