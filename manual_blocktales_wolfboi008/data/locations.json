@@ -6885,6 +6885,16 @@
     "requires": "|Ball|"
   },
   {
+    "name": "Bethany",
+    "region": "Caves",
+    "category": [
+      "Chapter 1",
+      "Caves [1]",
+      "Chatsanity"
+    ],
+    "requires": "|Ball|"
+  },
+  {
     "name": "Carter the Explorer",
     "region": "Caves",
     "category": [
