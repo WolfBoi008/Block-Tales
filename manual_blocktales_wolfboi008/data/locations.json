@@ -2772,16 +2772,6 @@
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 7",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Ye Olde Inn Shop",
-      "Shopsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Bomb from Annihilator",
     "region": "Mountains",
     "category": [
@@ -2823,16 +2813,6 @@
   },
   {
     "name": "Blackrock Castle Ice Cream Shop 4",
-    "region": "Blackrock Castle",
-    "category": [
-      "Chapter 1",
-      "Blackrock Castle Ice Cream Shop",
-      "Shopsanity"
-    ],
-    "requires": "|Blackrock Castle Key:2|"
-  },
-  {
-    "name": "Blackrock Castle Ice Cream Shop 5",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -6845,6 +6825,26 @@
     "requires": []
   },
   {
+    "name": "Cow",
+    "region": "Meadows",
+    "category": [
+      "Prologue",
+      "Meadows [3]",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sheep",
+    "region": "Meadows",
+    "category": [
+      "Prologue",
+      "Meadows [3]",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
     "name": "Pre-Red Noob, Blue Noob, and Noobador Battle Cutscene",
     "region": "Meadows",
     "category": [
@@ -7916,6 +7916,26 @@
     "requires": "|Blackrock Castle Key:2|"
   },
   {
+    "name": "Fallen Guard 1",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Castle Lobby",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:2|"
+  },
+  {
+    "name": "Fallen Guard 2",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Castle Lobby",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:2|"
+  },
+  {
     "name": "Lil guy",
     "region": "Blackrock Castle",
     "category": [
@@ -7975,6 +7995,16 @@
     ],
     "requires": "|Blackrock Castle Key:2|"
   },
+  {
+    "name": "Ashgabat",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Forge",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:2|"
+  },  
   {
     "name": "Bezmein",
     "region": "Blackrock Castle",
@@ -8890,7 +8920,7 @@
     "region": "Plains",
     "category": [
       "Chapter 2",
-      "Ant Hill [2]",
+      "Ant Hill [3]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
@@ -9625,6 +9655,15 @@
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
+  {
+    "name": "Cameraman",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Rugged Rainforest [3]",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   {
     "name": "Catching Up to Griefer Cutscene",
     "region": "Rainforest",
