@@ -59,6 +59,9 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
+    # If Shopsanity is disabled, disable the BUX Shop.
+    if world.options.shopsanity.value == False:
+        world.options.bux_shop.value = False
     # If the Goal is to finish Chapter 1 and Disable PostGoal Content is enabled, disable Chapter 2 onward.
     if world.options.goal.value == 1:
         if world.options.disable_postgoal_content.value == True:

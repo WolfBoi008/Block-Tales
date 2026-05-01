@@ -10,6 +10,7 @@
         "yaml_option": ["i_spy_logic"]
     },
     "Shopsanity": {
+        "yaml_option": ["shopsanity"],
         "hidden": true
     },
     "Bizville BUX Shop": {
@@ -37,6 +38,7 @@
         "hidden": true
     },
     "Cutscenesanity": {
+        "yaml_option": ["cutscenesanity"],
         "hidden": true
     },
     "Soul Type": {

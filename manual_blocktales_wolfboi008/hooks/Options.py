@@ -47,6 +47,14 @@ class ISpyLogic(DefaultOnToggle):
     """
     display_name: "I Spy Logic"
 
+class Shopsanity(DefaultOnToggle):
+    """
+    Toggle Checks for checking out all of the items within each of the game's shops.
+    NOTICE: You do not have to actually buy every individual item in the shops to send their respective Checks.
+    (174 Checks)
+    """
+    display_name: "Shopsanity"
+
 class BUXShop(Toggle):
     """
     Enable Checks for the BUX Shop.
@@ -104,6 +112,13 @@ class CAP(Choice):
     option_i_disagree = 1
     display_name: "CAP"
 
+class Cutscenesanity(DefaultOnToggle):
+    """
+    Enable viewing various cutscenes as Checks.
+    (79 Checks)
+    """
+    display_name: "Cutscenesanity"
+
 class ThePit(Toggle):
     """
     Adds each floor of the Pit as Checks.
@@ -134,11 +149,13 @@ class SoulType(Choice):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["solo_mode"] = SoloMode
     options["i_spy_logic"] = ISpyLogic
+    options["shopsanity"] = Shopsanity
     options["bux_shop"] = BUXShop
     options["bux_shop_hints"] = BUXShopHints
     options["levelsanity"] = Levelsanity
     options["fishsanity"] = Fishsanity
     options["chatsanity"] = Chatsanity
+    options["cutscenesanity"] = Cutscenesanity
     options["cap"] = CAP
     options["the_pit"] = ThePit
     options["disable_postgoal_content"] = DisablePostGoalContent
