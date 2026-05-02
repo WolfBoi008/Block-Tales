@@ -437,6 +437,16 @@
     "requires": "|Ball| AND {canReachLocation(Prologue Complete)}"
   },
   {
+    "name": "Loyal Knight",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Dungeons [1]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
     "name": "Smith's Lunch (Double Cheezburger)",
     "region": "Roadtown",
     "category": [
@@ -655,16 +665,6 @@
       "Tools"
     ],
     "requires": "|Bomb|"
-  },
-  {
-    "name": "Loyal Knight",
-    "region": "Blackrock Castle",
-    "category": [
-      "Chapter 1",
-      "Blackrock Dungeons [1]",
-      "Enemies"
-    ],
-    "requires": []
   },
   {
     "name": "Blackrock Castle Key in Jail",
@@ -2472,21 +2472,21 @@
     "requires": []
   },
   {
-    "name": "Bizville Item Shop 6",
-    "region": "Bizville",
-    "category": [
-      "Prologue",
-      "Bizville Item Shop",
-      "Shopsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Iron Cafe Item Shop 1",
     "region": "Bizville",
     "category": [
       "Prologue",
       "Iron Cafe Item Shop",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bizville Bank Gold Bar",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
       "Shopsanity"
     ],
     "requires": []
@@ -4645,37 +4645,7 @@
     "requires": []
   },
   {
-    "name": "Marcus, Zombie Enthusiast Cutscene",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Cutscenesanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Jonathonw1000",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Mannequin",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "N1RU",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -4745,26 +4715,6 @@
     "requires": []
   },
   {
-    "name": "Dino Zambie",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Santa Claus",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Eugenino08",
     "region": "Future Bizville",
     "category": [
@@ -4806,26 +4756,6 @@
   },
   {
     "name": "Nicao_26",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Magma Fiend",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Junkbot",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -4885,77 +4815,7 @@
     "requires": []
   },
   {
-    "name": "Rax",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Gang o' Fries",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Skelly",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "City Life Woman",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Dr. Fia Tyfoid",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Amory the Undead Necromancer",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Nick Bass",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Red Snapper",
+    "name": "RlTUAL",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -4975,26 +4835,6 @@
     "requires": []
   },
   {
-    "name": "Borock the Conqueror",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Knights of Redcliff: Paladin",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Central Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Korblox Deathspeaker",
     "region": "Future Bizville",
     "category": [
@@ -5005,77 +4845,7 @@
     "requires": []
   },
   {
-    "name": "Ud'zal",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Mr. Snowman",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Malivinius",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Blazeburner",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Elemental Stone Golem",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Noob Attack - Mech Mobility",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Tortrdee",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The Gnomsky Brothers",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5096,26 +4866,6 @@
   },
   {
     "name": "Snow Shredder",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "DJ Databaze",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Agrynoth",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5155,36 +4905,6 @@
     "requires": []
   },
   {
-    "name": "Octavia, The Ivory Spider Girl",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Clawed Companion",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Cyclock",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Human_Animatronic",
     "region": "Future Bizville",
     "category": [
@@ -5205,37 +4925,7 @@
     "requires": []
   },
   {
-    "name": "Mech Wasp Scourge",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Galloping Gecko",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "FlowerTreeo",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Tev Diver's Bot",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5255,37 +4945,7 @@
     "requires": []
   },
   {
-    "name": "Bald Specter Informant",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Bounty Hunter D-17",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "qiabie1234",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Mech Golem",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5565,16 +5225,6 @@
     "requires": []
   },
   {
-    "name": "YourFriendZeal",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Outside VIP",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "RediblesQW",
     "region": "Future Bizville",
     "category": [
@@ -5636,26 +5286,6 @@
   },
   {
     "name": "PlatinumFalls",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Outside VIP",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "theblookyoob",
-    "region": "Future Bizville",
-    "category": [
-      "Pre-Prologue",
-      "[PRE] Outside VIP",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The_SodaMachine",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5785,7 +5415,7 @@
     "requires": []
   },
   {
-    "name": "VIP Convention Kidnapping Cutscene",
+    "name": "VIP Convention + Kidnapping Cutscene",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5826,6 +5456,16 @@
   },
   {
     "name": "Time Travel Cutscene",
+    "region": "Future Bizville",
+    "category": [
+      "Pre-Prologue",
+      "[PRE] VIP Convention",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mysterious Figure Recruits Noobador Cutscene",
     "region": "Future Bizville",
     "category": [
       "Pre-Prologue",
@@ -5935,7 +5575,7 @@
     "requires": []
   },
   {
-    "name": "Sketchy Figure (Shop Owner)",
+    "name": "Spaceman James (Shop Owner)",
     "region": "Bizville",
     "category": [
       "Prologue",
@@ -6075,16 +5715,6 @@
     "requires": []
   },
   {
-    "name": "Rthro Man",
-    "region": "Bizville",
-    "category": [
-      "Prologue",
-      "Library",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Bea",
     "region": "Bizville",
     "category": [
@@ -6110,6 +5740,56 @@
     "category": [
       "Prologue",
       "Library",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Krayuloai",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Goly",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Banks (Shop Owner)",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Luxon",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Franken",
+    "region": "Bizville",
+    "category": [
+      "Prologue",
+      "Bizville Bank",
       "Chatsanity"
     ],
     "requires": []
@@ -6236,16 +5916,6 @@
   },
   {
     "name": "Vici",
-    "region": "Bizville",
-    "category": [
-      "Prologue",
-      "East Bizville",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Silent Guy Next to Vici",
     "region": "Bizville",
     "category": [
       "Prologue",
@@ -6815,7 +6485,7 @@
     "requires": []
   },
   {
-    "name": "The Seller",
+    "name": "The Seller (Shop Owner)",
     "region": "Meadows",
     "category": [
       "Prologue",
@@ -6839,13 +6509,13 @@
     "region": "Meadows",
     "category": [
       "Prologue",
-      "Meadows [3]",
+      "Meadows [4]",
       "Chatsanity"
     ],
     "requires": []
   },
   {
-    "name": "Pre-Red Noob, Blue Noob, and Noobador Battle Cutscene",
+    "name": "Pre-Noobador Battle Cutscene",
     "region": "Meadows",
     "category": [
       "Prologue",
@@ -6855,7 +6525,7 @@
     "requires": []
   },
   {
-    "name": "Post-Red Noob, Blue Noob, and Noobador Battle Cutscene",
+    "name": "Post-Noobador Battle Cutscene",
     "region": "Meadows",
     "category": [
       "Prologue",
@@ -6865,7 +6535,7 @@
     "requires": []
   },
   {
-    "name": "Jabroingle",
+    "name": "Goat",
     "region": "Meadows",
     "category": [
       "Prologue",
@@ -6890,6 +6560,16 @@
     "category": [
       "Chapter 1",
       "Carter's Caves",
+      "Chatsanity"
+    ],
+    "requires": "|Ball|"
+  },
+  {
+    "name": "Bethany",
+    "region": "Caves",
+    "category": [
+      "Chapter 1",
+      "Caves [1]",
       "Chatsanity"
     ],
     "requires": "|Ball|"
@@ -6925,7 +6605,7 @@
     "requires": "|Ball|"
   },
   {
-    "name": "Pre-Supreme Ant Battle Cutscene",
+    "name": "Supreme Ant's Royal Entrance Cutscene",
     "region": "Caves",
     "category": [
       "Chapter 1",
@@ -6935,7 +6615,7 @@
     "requires": "|Ball|"
   },
   {
-    "name": "Post-Supreme Ant Battle Cutscene",
+    "name": "Supreme Ant Explodes Cutscene",
     "region": "Caves",
     "category": [
       "Chapter 1",
