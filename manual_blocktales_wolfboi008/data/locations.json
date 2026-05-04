@@ -835,6 +835,16 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
+    "name": "Cruel King DX",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 3",
+      "Blackrock Throne Room",
+      "Optional Bosses"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
     "name": "Flying Mantis (Enemy)",
     "region": "Plains",
     "category": [
@@ -2341,14 +2351,15 @@
     "requires": "(({YamlEnabled(i_spy_logic)} AND {canReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
   },
   {
-    "name": "Call: Cruel King",
+    "name": "Call: Blackrock King",
     "region": "Bizville",
     "category": [
-      "Chapter 2",
-      "Cold Nirvana",
+      "Chapter 3",
+      "Blackrock Throne Room",
+      "Optional Bosses",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Whole Pizza from Jim",
@@ -2407,7 +2418,7 @@
     "category": [
       "Chapter 2",
       "Mosquito Nest",
-      "Bosses"
+      "Optional Bosses"
     ],
     "requires": "{canReachLocation(Iron Sword)} AND |Iron Sword|"
   },
@@ -2417,6 +2428,7 @@
     "category": [
       "Chapter 2",
       "Mosquito Nest",
+      "Optional Bosses",
       "Cards"
     ],
     "requires": "{canReachLocation(Supreme Mosquito)}"
@@ -6825,97 +6837,17 @@
     "requires": []
   },
   {
+    "name": "Cottage Door Next to Toll Booth Officer",
+    "region": "Roadtown",
+    "category": [
+      "Chapter 1",
+      "Roadtown",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
     "name": "Roadtown Toll Booth Officer",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 1",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 2",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 3",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 4",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 5",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 6",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The Biggest Snowman",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 7",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 8",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
@@ -6935,47 +6867,7 @@
     "requires": []
   },
   {
-    "name": "Big Snowman 9",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 10",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Jack",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 11",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 12",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
@@ -6996,46 +6888,6 @@
   },
   {
     "name": "Tom",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 13",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 14",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 15",
-    "region": "Roadtown",
-    "category": [
-      "Chapter 1",
-      "Roadtown",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Big Snowman 16",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
@@ -7209,23 +7061,13 @@
     "region": "Mountains",
     "category": [
       "Chapter 1",
-      "Mount Blackrock [1]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Penguin 2",
-    "region": "Mountains",
-    "category": [
-      "Chapter 1",
       "Mount Blackrock [2]",
       "Chatsanity"
     ],
     "requires": []
   },
   {
-    "name": "Penguin 3",
+    "name": "Penguin 2",
     "region": "Mountains",
     "category": [
       "Chapter 1",
@@ -7255,6 +7097,16 @@
     "requires": []
   },
   {
+    "name": "Penguin 3",
+    "region": "Mountains",
+    "category": [
+      "Chapter 1",
+      "Mount Blackrock [4]",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
     "name": "Penguin 4",
     "region": "Mountains",
     "category": [
@@ -7275,16 +7127,6 @@
     "requires": []
   },
   {
-    "name": "Penguin 6",
-    "region": "Mountains",
-    "category": [
-      "Chapter 1",
-      "Mount Blackrock [4]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Penguin?",
     "region": "Mountains",
     "category": [
@@ -7295,17 +7137,7 @@
     "requires": []
   },
   {
-    "name": "Guidebook",
-    "region": "Mountains",
-    "category": [
-      "Chapter 1",
-      "Snowy Thicket [1]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Penguin 7",
+    "name": "Penguin 6",
     "region": "Mountains",
     "category": [
       "Chapter 1",
@@ -7315,7 +7147,7 @@
     "requires": []
   },
   {
-    "name": "Penguin 8",
+    "name": "Penguin 7",
     "region": "Mountains",
     "category": [
       "Chapter 1",
@@ -7476,7 +7308,7 @@
     "requires": "|Blackrock Castle Key:2|"
   },
   {
-    "name": "Pre-Sentient Statue Battle Cutscene",
+    "name": "Sentient Statue Attacks Cutscene",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -7486,7 +7318,7 @@
     "requires": "|Blackrock Castle Key:2|"
   },
   {
-    "name": "Post-Sentient Statue Battle Cutscene",
+    "name": "Sentient Statue (also) Explodes Cutscene",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -7616,6 +7448,16 @@
     "requires": "|Blackrock Castle Key:2|"
   },
   {
+    "name": "Fallen Guard 3",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Castle Lobby",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:2|"
+  },
+  {
     "name": "Lil guy",
     "region": "Blackrock Castle",
     "category": [
@@ -7627,16 +7469,6 @@
   },
   {
     "name": "Olga",
-    "region": "Blackrock Castle",
-    "category": [
-      "Chapter 1",
-      "Blackrock Castle Lobby",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:2|"
-  },
-  {
-    "name": "Ganster",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -7966,7 +7798,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Approaching Cruel King Cutscene",
+    "name": "Facing the Cruel King Cutscene",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -7977,6 +7809,26 @@
   },
   {
     "name": "Cruel King Defeated Cutscene",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Throne Room",
+      "Cutscenesanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Post-Chapter 1 Mysterious Figure Cutscene",
+    "region": "Blackrock Castle",
+    "category": [
+      "Chapter 1",
+      "Blackrock Throne Room",
+      "Cutscenesanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Post-Cruel King Terry Cutscene",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -8086,17 +7938,17 @@
     "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
-    "name": "Pre-Sword Energy Tutorial Cutscene",
-    "region": "Roblox HQ",
+    "name": "Ms. Tori",
+    "region": "Bizville",
     "category": [
       "Chapter 2",
-      "East HQ Basement",
-      "Cutscenesanity"
+      "Mystic Hut",
+      "Chatsanity"
     ],
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Post-Sword Energy Tutorial Cutscene",
+    "name": "Prepping for Plainstown Cutscene",
     "region": "Roblox HQ",
     "category": [
       "Chapter 2",
@@ -8186,7 +8038,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Harry",
+    "name": "Harold",
     "region": "Bizville",
     "category": [
       "Chapter 2",
@@ -8276,17 +8128,7 @@
     "requires": "{canReachLocation(Chapter 1 Complete)}"
   },
   {
-    "name": "Cruel King Reformed Cutscene",
-    "region": "Bizville",
-    "category": [
-      "Chapter 2",
-      "Cold Nirvana",
-      "Cutscenesanity"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Stealing Terry's Plane Cutscene",
+    "name": "Riding Terry's Plane Cutscene",
     "region": "Bizville",
     "category": [
       "Chapter 2",

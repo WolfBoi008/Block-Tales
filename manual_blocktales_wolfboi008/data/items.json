@@ -576,10 +576,11 @@
   },
   {
     "count": 1,
-    "name": "Call: Cruel King",
+    "name": "Call: Blackrock King",
     "category": [
       "Chapter 2",
-      "Cards"
+      "Cards",
+      "Optional Bosses"
     ],
     "useful": true
   },
@@ -588,7 +589,8 @@
     "name": "Investor",
     "category": [
       "Chapter 2",
-      "Cards"
+      "Cards",
+      "Optional Bosses"
     ],
     "useful": true
   },

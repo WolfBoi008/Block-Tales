@@ -9,6 +9,9 @@
     "I Spy Logic": {
         "yaml_option": ["i_spy_logic"]
     },
+    "Optional Bosses": {
+        "yaml_option": ["optional_bosses"]
+    },
     "Shopsanity": {
         "yaml_option": ["shopsanity"],
         "hidden": true

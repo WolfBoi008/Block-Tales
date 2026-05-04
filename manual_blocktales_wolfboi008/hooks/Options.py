@@ -47,6 +47,15 @@ class ISpyLogic(DefaultOnToggle):
     """
     display_name: "I Spy Logic"
 
+class OptionalBosses(Toggle):
+    """
+    Toggle Items and Checks related to optional boss fights.
+    WARNING: Some of these bosses are very difficult, and their logic is slightly unfair until I implement the
+    game's later Chapters. Enable at your own risk.
+    (4 Checks)
+    """
+    display_name: "Optional Bosses"
+
 class Shopsanity(DefaultOnToggle):
     """
     Toggle Checks for checking out all of the items within each of the game's shops.
@@ -97,7 +106,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (679 Checks)
+    (662 Checks)
     """
     display_name: "Chatsanity"
 
@@ -149,6 +158,7 @@ class SoulType(Choice):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["solo_mode"] = SoloMode
     options["i_spy_logic"] = ISpyLogic
+    options["optional_bosses"] = OptionalBosses
     options["shopsanity"] = Shopsanity
     options["bux_shop"] = BUXShop
     options["bux_shop_hints"] = BUXShopHints
