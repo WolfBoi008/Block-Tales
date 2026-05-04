@@ -1025,6 +1025,16 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
+    "name": "Feel Fine from Kyoko (Chat twice)",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 2",
+      "Turitopulis",
+      "Cards"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
     "name": "BUX in Penguin Land",
     "region": "Roadtown",
     "category": [
@@ -8148,16 +8158,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Officer Hakim",
-    "region": "Plains",
-    "category": [
-      "Chapter 2",
-      "Plainsport",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
     "name": "Berzoingles",
     "region": "Plains",
     "category": [
@@ -8198,27 +8198,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Mrs. Wangletooth",
-    "region": "Plains",
-    "category": [
-      "Chapter 2",
-      "Plainsport",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Kyoko (Plainsport)",
-    "region": "Plains",
-    "category": [
-      "Chapter 2",
-      "Plainsport",
-      "Cutscenesanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Carson Banes",
+    "name": "Casper Baso",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8228,7 +8208,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Ashley Banes",
+    "name": "Aina Baso",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8238,7 +8218,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Abby Banes",
+    "name": "Amira Baso",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8248,7 +8228,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Jackie Banes",
+    "name": "Amani Baso",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8288,7 +8268,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Michael",
+    "name": "Mazin",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8298,7 +8278,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Hermine",
+    "name": "Hafsa",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -8308,12 +8288,12 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Koel",
+    "name": "Koel Stops You, Lets You in Plainstown Cutscene",
     "region": "Plains",
     "category": [
       "Chapter 2",
       "In Plainsport",
-      "Chatsanity"
+      "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
@@ -8344,6 +8324,16 @@
       "Chapter 2",
       "Plainstown",
       "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Griefer Spots You & Flees Cutscene",
+    "region": "Plains",
+    "category": [
+      "Chapter 2",
+      "Savanna [1]",
+      "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
@@ -8508,16 +8498,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Fire Ant TV",
-    "region": "Plains",
-    "category": [
-      "Chapter 2",
-      "Ant Hill [6]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
     "name": "Fire Ant 11 in Ant Hill",
     "region": "Plains",
     "category": [
@@ -8628,7 +8608,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Introduction to Griefer Cutscene",
+    "name": "Mayor Thaniyel Kidnapped Cutscene",
     "region": "Turitopulis",
     "category": [
       "Chapter 2",
@@ -8749,6 +8729,16 @@
   },
   {
     "name": "Naya",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 2",
+      "Turitopulis",
+      "Chatsanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Kyoko",
     "region": "Turitopulis",
     "category": [
       "Chapter 2",
@@ -8908,36 +8898,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Pig 1",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Turitopulis",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Pig 2",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Turitopulis",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Pig 3",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Turitopulis",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
     "name": "House 1",
     "region": "Turitopulis",
     "category": [
@@ -8989,16 +8949,6 @@
   },
   {
     "name": "House 3",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Turitopulis",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "House 4",
     "region": "Turitopulis",
     "category": [
       "Chapter 2",
@@ -9078,16 +9028,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Gai Modi",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Turitopulis",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
     "name": "Cat (Turitopulis)",
     "region": "Turitopulis",
     "category": [
@@ -9118,37 +9058,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Naoki",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Temple Inn",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
     "name": "Receptionist Lakshman",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Temple Inn",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Green Noob",
-    "region": "Turitopulis",
-    "category": [
-      "Chapter 2",
-      "Temple Inn",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Purple Noob",
     "region": "Turitopulis",
     "category": [
       "Chapter 2",
@@ -9172,16 +9082,6 @@
     "region": "Rainforest",
     "category": [
       "Chapter 2",
-      "Rugged Rainforest [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Cameraman",
-    "region": "Rainforest",
-    "category": [
-      "Chapter 2",
       "Rugged Rainforest [3]",
       "Chatsanity"
     ],
@@ -9189,16 +9089,6 @@
   },
   {
     "name": "Catching Up to Griefer Cutscene",
-    "region": "Rainforest",
-    "category": [
-      "Chapter 2",
-      "Rugged Rainforest [4]",
-      "Cutscenesanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
-  },
-  {
-    "name": "Angered Komodo Dragon Cutscene",
     "region": "Rainforest",
     "category": [
       "Chapter 2",
@@ -9268,7 +9158,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
   },
   {
-    "name": "Iron Sword Taken By Bigfoot",
+    "name": "Iron Sword Taken By Bigfoot Cutscene",
     "region": "Rainforest",
     "category": [
       "Chapter 2",
@@ -9378,16 +9268,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
-    "name": "Wood Man #13",
-    "region": "Sacred Hollow",
-    "category": [
-      "Chapter 2",
-      "Sacred Hollow [4]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
-  },
-  {
     "name": "Wood Man #7",
     "region": "Sacred Hollow",
     "category": [
@@ -9398,7 +9278,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
-    "name": "Wood Man #46",
+    "name": "Wood Man #13",
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
@@ -9472,7 +9352,7 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
@@ -9482,7 +9362,7 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
@@ -9492,10 +9372,20 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
+  },
+  {
+    "name": "Post-Chapter 2 Mysterious Figure Cutscene",
+    "region": "Sacred Hollow",
+    "category": [
+      "Chapter 2",
+      "The Venomshank",
+      "Cutscenesanity"
+    ],
+    "requires": []
   },
   {
     "name": "Mayor Monty (Begins Quest to Save Griefer)",
@@ -9505,7 +9395,7 @@
       "Turitopulis",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
+    "requires": "|Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Shedletsky Post-Griefer Cutscene",
@@ -9561,16 +9451,6 @@
     "name": "Hades",
     "region": "Bizville",
     "category": [
-      "Chapter 3",
-      "West Bizville",
-      "Chatsanity"
-    ],
-    "requires": "|Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword|"
-  },
-  {
-    "name": "Conductor",
-    "region": "Bizville",
-    "category":[
       "Chapter 3",
       "West Bizville",
       "Chatsanity"

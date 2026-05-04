@@ -106,7 +106,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (662 Checks)
+    (648 Checks)
     """
     display_name: "Chatsanity"
 
@@ -124,7 +124,7 @@ class CAP(Choice):
 class Cutscenesanity(DefaultOnToggle):
     """
     Enable viewing various cutscenes as Checks.
-    (79 Checks)
+    (80 Checks)
     """
     display_name: "Cutscenesanity"
 
