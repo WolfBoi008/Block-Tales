@@ -106,7 +106,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (593 Checks)
+    (595 Checks)
     """
     display_name: "Chatsanity"
 
@@ -124,7 +124,7 @@ class CAP(Choice):
 class Cutscenesanity(DefaultOnToggle):
     """
     Enable viewing various cutscenes as Checks.
-    (87 Checks)
+    (104 Checks)
     """
     display_name: "Cutscenesanity"
 
@@ -191,6 +191,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["chapter2"].visibility = Visibility.none
     options.type_hints["chapter3"].visibility = Visibility.none
     options.type_hints["chapter4"].visibility = Visibility.none
+    options.type_hints["chapter5"].visibility = Visibility.none
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)

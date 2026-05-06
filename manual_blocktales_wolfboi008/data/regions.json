@@ -77,7 +77,15 @@
     "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'|"
   },
   "Vermillion Village": {
-    "connects_to": [],
+    "connects_to": ["Temple of the Red Sun"],
     "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  "Temple of the Red Sun": {
+    "connects_to": ["Red Sun River"],
+    "requires": "|Calypso|"
+  },
+  "Red Sun River": {
+    "connects_to": [],
+    "requires": "|Ancient Key:4| AND |Shovel|"
   }
 }

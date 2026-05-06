@@ -527,7 +527,7 @@
     "requires": []
   },
   {
-    "name": "Safe Guard",
+    "name": "Safe Guard in Blackrock Mountains",
     "region": "Mountains",
     "category": [
       "Chapter 1",
@@ -1325,7 +1325,7 @@
     "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND |Rocket Boots|"
   },
   {
-    "name": "SP+",
+    "name": "SP+ in Rainforest",
     "region": "Rainforest",
     "category": [
       "Chapter 2",
@@ -1878,16 +1878,6 @@
     "category": [
       "Chapter 3",
       "Manor Outside",
-      "Freestanding Items"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Cookie from Kyoko",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Diner",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -4638,7 +4628,7 @@
     "requires": "{canReachLocation(Chapter 3 Complete)}"
   },
   {
-    "name": "Deep Focus",
+    "name": "Deep Focus in The Pit",
     "region": "The Pit",
     "category": [
       "Chapter 4",
@@ -9388,7 +9378,7 @@
     "requires": []
   },
   {
-    "name": "Mayor Monty (Begins Quest to Save Griefer)",
+    "name": "Mayor Thaniyel (Begins Quest to Save Griefer)",
     "region": "Turitopulis",
     "category": [
       "Chapter 3",
@@ -11726,7 +11716,27 @@
     "category": [
       "Chapter 4",
       "Ancient Tomb [7]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bottled Ship",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [7]",
       "Tools"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ancient Key in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [7]",
+      "Key Items"
     ],
     "requires": []
   },
@@ -11841,12 +11851,905 @@
     "requires": []
   },
   {
-    "name": "Pirate Camp (Temporary Chapter 4 Goal)",
+    "name": "Safe Guard in Vermillion Inn",
     "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Inn Room",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX Next to Vermillion Card Shop",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Whole Pizza from Vermillion Skeleton",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 1",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 2",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 3",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 4",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 5",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 6",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 7",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 8",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 9",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 10",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 11",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 12",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 13",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 14",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 15",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 16",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 17",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 18",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 19",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vermillion Village Item Shop 20",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Deep Focus (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "SP Wire (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pity SP (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Daze (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Infect (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Fireball (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bodyguard (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Baller (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Charge (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Knight (Vermillion Village Shop)",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Vermillion Village",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Any Item from Camel Farm",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "The Dunes Spot",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "SP+ Behind Statue",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Scorched Ruins (C1)",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX in Third Puzzle Room",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Scorched Ruins (C3)",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pirates' Mutiny After Puzzles Cutscene",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Scorched Ruins (A3)",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Calypso Sees You and Pirates Fighting Cutscene",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Scorched Ruins (A3)",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Entering the Temple of the Red Sun Cutscene",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple Exterior",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cookbook in Turitopulis",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 4",
+      "Turitopulis Secret Cave",
+      "Key Items"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship|"
+  },
+  {
+    "name": "Giving the Cookbook to the Wizard Cutscene",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 4",
+      "Haunted Manor Kitchen",
+      "Cutscenesanity"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook|"
+  },
+  {
+    "name": "Curing Brad Thaniyel Cutscene",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 4",
+      "Turitopulis",
+      "Cutscenesanity",
+      "Pure Soul"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook| AND |Apple Core| AND |Compost| AND |Onion Ring| AND |The Special|"
+  },
+  {
+    "name": "Mayor Thaniyel (in his house)",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 4",
+      "Mayor Thaniyel's Home",
+      "Chatsanity",
+      "Pure Soul"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook| AND |Apple Core| AND |Compost| AND |Onion Ring| AND |The Special|"
+  },
+  {
+    "name": "Brad Thaniyel",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 4",
+      "Mayor Thaniyel's Home",
+      "Chatsanity",
+      "Pure Soul"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook| AND |Apple Core| AND |Compost| AND |Onion Ring| AND |The Special|"
+  },
+  {
+    "name": "Anubis",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [1]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Egg in Red Sun Temple",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [2]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cookie in Red Sun Temple",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [3]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX Next to Cookie",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [3]",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Scarab",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [4]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Almost Skewered Cutscene",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [4]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Camel?",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [5]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Happy SP in Red Sun Temple",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [5]",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "First Ancient Key in Red Sun Temple",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [5] C",
+      "Key Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ramblin' Pot",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [5] B",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sand in Front of Ancient Key Door",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [5] B",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Garlic in Shrinking Room",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [6] D",
+      "Freestanding Items"
+    ],
+    "requires": "|Ancient Key:2|"
+  },
+  {
+    "name": "Sacrifice in Orb Puzzle Room",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [6] B",
+      "Cards"
+    ],
+    "requires": "|Ancient Key:2|"
+  },
+  {
+    "name": "Ancient Key Trap",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [6] C",
+      "Key Items"
+    ],
+    "requires": "|Ancient Key:2|"
+  },
+  {
+    "name": "Pita Near Diggable Ground",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7]",
+      "Freestanding Items"
+    ],
+    "requires": "|Ancient Key:3|"
+  },
+  {
+    "name": "BUX Before Temple Guardian",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7]",
+      "BUX"
+    ],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  {
+    "name": "Ancient Key After Ball Puzzle",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7] B",
+      "Freestanding Items"
+    ],
+    "requires": "|Ancient Key:3|"
+  },
+  {
+    "name": "Mammoul in Shovel Room",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7] D",
+      "Freestanding Items"
+    ],
+    "requires": "|Ancient Key:4|"
+  },
+  {
+    "name": "Shovel",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7] D",
+      "Tools"
+    ],
+    "requires": "|Ancient Key:4|"
+  },
+  {
+    "name": "Acquiring the Shovel Cutscene",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7] D",
+      "Cutscenesanity"
+    ],
+    "requires": "|Ancient Key:4|"
+  },
+  {
+    "name": "Shovel Tutorial Cutscene",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Temple [7] D",
+      "Cutscenesanity"
+    ],
+    "requires": "|Ancient Key:4|"
+  },
+  {
+    "name": "Temple Guardian",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Bridge",
+      "Bosses"
+    ],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  {
+    "name": "The Right Hand",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Bridge",
+      "Bosses"
+    ],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  {
+    "name": "The Left Hand",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Bridge",
+      "Bosses"
+    ],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  {
+    "name": "Temple Guardian Appears Cutscene",
+    "region": "Temple of the Red Sun",
+    "category": [
+      "Chapter 4",
+      "Red Sun Bridge",
+      "Cutscenesanity"
+    ],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  {
+    "name": "Shawarma in Red Sun River",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Landing in Red Sun River Cavern Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [1]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mummy",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Flaming Horse",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Flame Warrior",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hardtack in Red Sun River",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "The Fallen Crew Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Trotter Sees the Fallen Crew Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [2]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX in Red Sun River",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [5]",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Call: Calypso",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [6]",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Calypso Envies You Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Red Sun River [6]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX in Mount Red Sun",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Captain Trotter",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "Bosses"
+    ],
+    "requires": []
+  },
+  {
+    "name": "The Ancients",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "Bosses"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vessel",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "Bosses"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Firebrand",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "Swords"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Chapter 4 Complete",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "Mount Red Sun",
+      "Chapters"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beat Chapter 4",
+    "region": "Red Sun River",
     "category": [
       "Goal"
     ],
     "requires": [],
     "victory": true
+  },
+  {
+    "name": "Trotter Confronts You Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "The Firebrand",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "The Sacrifice Completed Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "The Firebrand",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ancients Defeated, Firebrand Obtained Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "The Firebrand",
+      "Cutscenesanity"
+    ],
+    "requires": []
   }
 ]
