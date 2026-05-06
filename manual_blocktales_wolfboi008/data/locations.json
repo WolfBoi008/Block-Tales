@@ -1245,7 +1245,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
   },
   {
-    "name": "Infect",
+    "name": "Infect in Rainforest",
     "region": "Rainforest",
     "category": [
       "Chapter 2",
@@ -1569,7 +1569,7 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Bosses"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
@@ -1579,7 +1579,7 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Bosses"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
@@ -1589,7 +1589,7 @@
     "region": "Sacred Hollow",
     "category": [
       "Chapter 2",
-      "Griefer's Crib",
+      "The Venomshank",
       "Swords"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
@@ -1724,107 +1724,107 @@
   },
   {
     "name": "Call: Red n' Blue",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Cards"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "BUX Behind Wall",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "BUX"
     ],
     "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND |Train Ticket|"
   },
   {
-    "name": "Defense Stick at Start of Spooksville",
-    "region": "Spooksville",
+    "name": "Defense Stick at Start of Scarytown",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Zombie",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "Enemies"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Spiked Zombie",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "Enemies"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Softener",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Cards"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Double Cheezburger Left of Softener",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Epicsauce Right of Softener",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Winged Zombie",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Enemies"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Mr Batty Near End of Softener Room",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Double Cheezburger in Crypt",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Crypt Inside",
@@ -1834,7 +1834,7 @@
   },
   {
     "name": "BUX in Crypt",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Crypt Guest Room",
@@ -1844,27 +1844,27 @@
   },
   {
     "name": "BUX After Crypt",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [3]",
+      "Cemetery [3]",
       "BUX"
     ],
     "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND |Train Ticket|"
   },
   {
     "name": "Taco After Crypt",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [3]",
+      "Cemetery [3]",
       "Freestanding Items"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "BUX Outside Manor",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Manor Outside",
@@ -1874,7 +1874,7 @@
   },
   {
     "name": "Double Cheezburger Outside Manor",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Manor Outside",
@@ -1907,7 +1907,7 @@
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
-      "Haunted Manor Courtyard [2]",
+      "Haunted Manor Back Stairs",
       "Enemies"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -1980,7 +1980,7 @@
       "Manor Basement",
       "Bosses"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Spider| AND |Dust|"
   },
   {
     "name": "Raw Turkey",
@@ -1990,7 +1990,7 @@
       "Manor Basement",
       "Key Items"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Spider| AND |Dust|"
   },
   {
     "name": "Shark Fin Soup from Ghost Chef 1",
@@ -2087,7 +2087,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Enemies"
     ],
     "requires": []
@@ -2097,7 +2097,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Enemies"
     ],
     "requires": []
@@ -2107,7 +2107,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Cards"
     ],
     "requires": []
@@ -2117,7 +2117,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Enemies"
     ],
     "requires": []
@@ -2127,7 +2127,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Enemies"
     ],
     "requires": []
@@ -2137,7 +2137,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Enemies"
     ],
     "requires": []
@@ -2147,7 +2147,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Freestanding Items"
     ],
     "requires": []
@@ -2157,7 +2157,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [3]a",
+      "Greed",
       "Bosses"
     ],
     "requires": []
@@ -2167,7 +2167,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [1]",
+      "Isolation [1]",
       "Enemies"
     ],
     "requires": []
@@ -2177,7 +2177,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Enemies"
     ],
     "requires": []
@@ -2187,17 +2187,17 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Freestanding Items"
     ],
     "requires": []
   },
   {
-    "name": "Solitude",
+    "name": "Sorrow",
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [3]c",
+      "Sorrow",
       "Bosses"
     ],
     "requires": []
@@ -2207,7 +2207,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [1]",
+      "Fear [1]",
       "Freestanding Items"
     ],
     "requires": []
@@ -2217,7 +2217,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Cards"
     ],
     "requires": []
@@ -2227,7 +2227,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [3]j",
+      "Fear",
       "Bosses"
     ],
     "requires": []
@@ -2237,7 +2237,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [3]j",
+      "Fear",
       "Enemies"
     ],
     "requires": []
@@ -2247,7 +2247,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [1]",
       "Enemies"
     ],
     "requires": []
@@ -2257,7 +2257,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Cards"
     ],
     "requires": []
@@ -2267,7 +2267,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [3]a",
+      "Hatred",
       "Bosses"
     ],
     "requires": []
@@ -3555,7 +3555,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 1",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3565,7 +3565,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 2",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3575,7 +3575,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 3",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3585,7 +3585,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 4",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3595,7 +3595,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 5",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3605,7 +3605,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 6",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3615,7 +3615,7 @@
   },
   {
     "name": "Spooky Fruit Stand Shop 7",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Spooky Fruit Stand Shop",
@@ -3874,7 +3874,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Free Fire",
+    "name": "Free Fire (Banished Knight)",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -7378,7 +7378,7 @@
     "requires": "|Blackrock Castle Key:2|"
   },
   {
-    "name": "Moss (Blackrock Castle)",
+    "name": "Moss",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
@@ -8418,7 +8418,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   {
-    "name": "Dave (Ant Hill)",
+    "name": "Dave",
     "region": "Plains",
     "category": [
       "Chapter 2",
@@ -9488,27 +9488,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Bob",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Cafe Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Gorg",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Cafe Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Pinky",
+    "name": "Bob (Train)",
     "region": "Train",
     "category": [
       "Chapter 3",
@@ -9519,16 +9499,6 @@
   },
   {
     "name": "Iron Chef",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Cafe Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Bugs",
     "region": "Train",
     "category": [
       "Chapter 3",
@@ -9578,36 +9548,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Tiffany",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Cafe Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Click",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Cafe Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Sam, Resident Creeper",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Frankford L. Geraldor VI",
     "region": "Train",
     "category": [
@@ -9628,67 +9568,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Kyle, Enthusiastic Runner",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Shi, Badlands Explorer",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "DA1SY, Helpful Knowledge-Bot",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Cosway, Scatterbrain Straw",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Brusailles, Aspiring & Big",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "'Marquis', Name Erased",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Spa Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Leland, Dull Spear of 'Justice'",
     "region": "Train",
     "category": [
       "Chapter 3",
@@ -9748,57 +9628,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Callaghan",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Jacob (Train)",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Jay",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Rodney",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Trinculo",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Paxel",
     "region": "Train",
     "category": [
       "Chapter 3",
@@ -9848,34 +9678,14 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Egon, Short-Tempered Nailhead",
+    "name": "Conductor",
     "region": "Train",
     "category": [
       "Chapter 3",
       "Seat Cart",
       "Chatsanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Demetri, Sweet Trickery",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Solar",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": []
   },
   {
     "name": "Frosty",
@@ -9883,16 +9693,6 @@
     "category": [
       "Chapter 3",
       "Seat Cart",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Trashish",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [1]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -9968,26 +9768,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Seymour",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [1]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Bio",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [1]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Willie",
     "region": "Train",
     "category": [
@@ -10008,51 +9788,11 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "The Bee",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Manny",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Clayton",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Passenger Cart [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Bon",
     "region": "Train",
     "category": [
       "Chapter 3",
       "Passenger Cart [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Law-Abiding Citizen",
-    "region": "Train",
-    "category": [
-      "Chapter 3",
-      "Train Storage",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -10078,7 +9818,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Hurry to the Conductor Cutscene",
+    "name": "Hurry to the Engineer Cutscene",
     "region": "Train",
     "category": [
       "Chapter 3",
@@ -10118,238 +9858,158 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Arriving in Spooksville Cutscene",
-    "region": "Spooksville",
+    "name": "Noobador",
+    "region": "Bizville",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Central Bizville",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Green Noob & Purple Noob)}"
+  },
+  {
+    "name": "Arriving in Scarytown Cutscene",
+    "region": "Scarytown",
+    "category": [
+      "Chapter 3",
+      "Scarytown",
       "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Darren (Shop Owner)",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Maxime",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Lil' Jackie",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Lil' Ashley",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Bartholomew",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Big Charles",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Red & Blue Say Thanks to You Cutscene",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Cutscenesanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Johnson",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Finn",
-    "region": "Spooksville",
+    "name": "Bob (Scarytown)",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Station",
+      "Scarytown",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Gerhardt",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Radisson",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [1]",
+      "Cemetery [1]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Pumpking",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Pumpkin Devil",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [2]",
+      "Cemetery [2]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Cecil",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 1",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 2",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 3",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 4",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 5",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 6",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 7",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 8",
-    "region": "Spooksville",
-    "category": [
-      "Chapter 3",
-      "Crypt Inside",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tomb 9",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Crypt Inside",
@@ -10359,27 +10019,27 @@
   },
   {
     "name": "Renfield",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [3]",
+      "Cemetery [3]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Silas",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
-      "Manor Forest [3]",
+      "Cemetery [3]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
     "name": "Approaching the Manor Cutscene",
-    "region": "Spooksville",
+    "region": "Scarytown",
     "category": [
       "Chapter 3",
       "Manor Outside",
@@ -10388,7 +10048,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Touring the Manor Cutscene",
+    "name": "Entering the Manor Cutscene",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -10398,7 +10058,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Son of Pierre",
+    "name": "Jerry",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -10408,17 +10068,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Hedler",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Diner",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kyoko (Telamon's Manor)",
+    "name": "Tutorial Terry",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -10459,7 +10109,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Retired Blackrock Guard 4",
+    "name": "Retired Wee Guard",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -10474,26 +10124,6 @@
     "category": [
       "Chapter 3",
       "Manor Diner",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Jordan",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [1]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kindle",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [1]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -10519,91 +10149,11 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Mosy",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [1]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Stewart",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [1]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Sog, the Zambie",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Entrance",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Gyro, Self-Appointed '''Undercover Agent'''",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Entrance",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Cheesy Chuck",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Entrance",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Greggy",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
       "Manor Entrance",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Noya",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Entrance",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Borheesh",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Rachel",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -10629,151 +10179,11 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Bertie",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kumo",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Dominic",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Gonzo",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Bonzo",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Buckpert",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
       "Manor Guest Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Jerry",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Master Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tutorial Terry",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Master Bedroom",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Moss (Telamon's Manor)",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Dave (Telamon's Manor)",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Billy the Man",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Zachary",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Ken",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Emma",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Apollo",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Hallway [2]",
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
@@ -10809,87 +10219,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Eugene",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Somali",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kyouki",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kobalt",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Tori",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Devin",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Gnarm'ka",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Kozelo",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Manor Den",
-      "Chatsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
-    "name": "Jiambi",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -10927,6 +10257,46 @@
       "Chatsanity"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+  },
+  {
+    "name": "bubblepop",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 3",
+      "Manor Master Bedroom",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Door to the Departed Cutscene",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 3",
+      "Manor Courtyard [3]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Jerry (Haunted Manor)",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 3",
+      "Haunted Manor Diner",
+      "Chatsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tutorial Terry (Haunted Manor)",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 3",
+      "Haunted Manor Diner",
+      "Chatsanity"
+    ],
+    "requires": []
   },
   {
     "name": "Lost Accountant",
@@ -11080,7 +10450,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Quiz Noob (Complete Quiz to Continue)",
+    "name": "Quiz Noob",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -11117,7 +10487,7 @@
       "Manor Basement",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Spider| AND |Dust|"
   },
   {
     "name": "Turkey Defeated Cutscene",
@@ -11127,7 +10497,7 @@
       "Manor Basement",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Spider| AND |Dust|"
   },
   {
     "name": "Ghost Chef Gives the Ghost Potion Cutscene",
@@ -11187,7 +10557,7 @@
       "Manor Basement [3]",
       "Chatsanity"
     ],
-    "requires": []
+    "requires": "|Hyperball|"
   },
   {
     "name": "Hyperball Tutorial Cutscene",
@@ -11197,7 +10567,7 @@
       "Manor Basement [6]",
       "Cutscenesanity"
     ],
-    "requires": []
+    "requires": "|Hyperball|"
   },
   {
     "name": "Obtaining the Ghostwalker(?) Cutscene",
@@ -11207,7 +10577,7 @@
       "Manor Walker Room",
       "Cutscenesanity"
     ],
-    "requires": "|Hyperball|"
+    "requires": "|Hyperball| AND |Bounce|"
   },
   {
     "name": "Waking up in the Dream World Cutscene",
@@ -11220,21 +10590,11 @@
     "requires": []
   },
   {
-    "name": "The Avarice Orb",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Zone Hub",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
     "name": "Sine",
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11244,7 +10604,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11254,7 +10614,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11264,7 +10624,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11274,7 +10634,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [1]",
+      "Avarice [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11284,7 +10644,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11294,7 +10654,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11304,7 +10664,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11314,7 +10674,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11324,7 +10684,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11334,7 +10694,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11344,7 +10704,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11354,7 +10714,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11364,7 +10724,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11374,7 +10734,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11384,7 +10744,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11394,7 +10754,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11404,7 +10764,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11414,7 +10774,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11424,7 +10784,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11434,7 +10794,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [2]",
+      "Avarice [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11444,7 +10804,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [3]",
+      "Avarice [3]",
       "Chatsanity"
     ],
     "requires": []
@@ -11454,7 +10814,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [3]a",
+      "Greed",
       "Cutscenesanity"
     ],
     "requires": []
@@ -11464,38 +10824,8 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path A [3]a",
+      "Greed",
       "Cutscenesanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The Light (Within Greed)",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path A [3]a",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Isolation",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Zone Hub",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Seclusion",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [1]",
-      "Chatsanity"
     ],
     "requires": []
   },
@@ -11504,7 +10834,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11514,7 +10844,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11524,7 +10854,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11534,7 +10864,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11544,7 +10874,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11554,27 +10884,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Duck 7",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [2]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Duck 8",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11584,87 +10894,28 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [2]",
+      "Isolation [2]",
       "Chatsanity"
     ],
     "requires": []
   },
   {
-    "name": "ocean",
+    "name": "Meeting Sorrow Cutscene",
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [3]a",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "sun",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [3]a",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "sky",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [3]a",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "moon",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [3]a",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Meeting Solitude Cutscene",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [3]c",
+      "Sorrow",
       "Cutscenesanity"
     ],
     "requires": []
   },
   {
-    "name": "Solitude Defeated Cutscene",
+    "name": "Sorrow Defeated Cutscene",
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path B [3]c",
+      "Sorrow",
       "Cutscenesanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The Light (Within Solitude)",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path B [3]c",
-      "Chatsanity"
-    ]
-  },
-  {
-    "name": "Terror",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Zone Hub",
-      "Chatsanity"
     ],
     "requires": []
   },
@@ -11673,7 +10924,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [1]",
+      "Fear [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11683,7 +10934,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11693,7 +10944,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11703,7 +10954,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11713,7 +10964,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11723,7 +10974,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11733,7 +10984,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11743,7 +10994,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11753,7 +11004,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [2]",
+      "Fear [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11763,7 +11014,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [3]e",
+      "Fear [3]e",
       "Chatsanity"
     ],
     "requires": []
@@ -11773,7 +11024,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [3]j",
+      "Fear",
       "Cutscenesanity"
     ],
     "requires": []
@@ -11783,18 +11034,8 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path C [3]j",
+      "Fear",
       "Cutscenesanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Wrath",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Hateful Dream Zone Hub",
-      "Chatsanity"
     ],
     "requires": []
   },
@@ -11803,7 +11044,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [1]",
+      "Darkness [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11813,7 +11054,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [1]",
+      "Darkness [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11823,7 +11064,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [1]",
+      "Darkness [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11833,7 +11074,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [1]",
+      "Darkness [1]",
       "Chatsanity"
     ],
     "requires": []
@@ -11843,7 +11084,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11853,7 +11094,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11863,7 +11104,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11873,7 +11114,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11883,7 +11124,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11893,7 +11134,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11903,7 +11144,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11913,7 +11154,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11923,17 +11164,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [2]",
-      "Chatsanity"
-    ],
-    "requires": []
-  },
-  {
-    "name": "The Archway",
-    "region": "Dream World",
-    "category": [
-      "Chapter 3",
-      "Dream Path D [3]",
+      "Darkness [2]",
       "Chatsanity"
     ],
     "requires": []
@@ -11943,7 +11174,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [3]a",
+      "Hatred",
       "Chatsanity"
     ],
     "requires": []
@@ -11953,7 +11184,7 @@
     "region": "Dream World",
     "category": [
       "Chapter 3",
-      "Dream Path D [3]a",
+      "Hatred",
       "Cutscenesanity"
     ],
     "requires": []
@@ -11966,6 +11197,656 @@
       "Manor Walker Room",
       "Cutscenesanity"
     ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball|"
+    "requires": "|Hyperball| AND |Bounce| AND |'Builderman'|"
+  },
+  {
+    "name": "Post-Chapter 3 Mysterious Figure Cutscene",
+    "region": "Catacombs",
+    "category": [
+      "Chapter 3",
+      "Manor Walker Room",
+      "Cutscenesanity"
+    ],
+    "requires": "|Hyperball| AND |Bounce| AND |'Builderman'|"
+  },
+  {
+    "name": "On the Search for the Firebrand Cutscene",
+    "region": "Roblox HQ",
+    "category": [
+      "Chapter 4",
+      "East HQ Basement",
+      "Cutscenesanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "BUX Under Lifeguard Stand",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "BUX"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Kevin (Bizville Docks)",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Big Sand-Man",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Bobbert",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Claus",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "William",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Lifeguard Leroy",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Omoli",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Surfer Sam",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Surfer Spencer",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Dustin",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Sandy",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Ketsuban",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Chris",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Rulebreaker Ronny",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Lars",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Nancy",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Henry Blockman",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Lilith",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Slippery Joe",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Giant Squid",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Cat (Bizville Docks)",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Fisherman Fred",
+    "region": "Bizville",
+    "category": [
+      "Chapter 4",
+      "Bizville Docks",
+      "Chatsanity"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pie in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Onion Ring in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Spiky Devil",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [1]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX Near Deleter",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [2]",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Deleter",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [2]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Egg in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [3]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Feel Fine in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [3]",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Thunder Bolt in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [4]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Nasty Badger",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Outer Scorched Dunes [4]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Witches Brew in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Infect in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes [1]",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shawarma in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes [2]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Free Fire in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes [3]",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Vulture",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes [3]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Combo Meal in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes Extra",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "SP Drain in Scorched Dunes",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Scorched Dunes Extra",
+      "Cards"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Garlic in Vase",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "2/3 Shish Tawook in Tomb",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [1]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tomb Raider",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [1]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Dates in Vase",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [2]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Chickpeas in Vase",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [3]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "BUX Across Water",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [3]",
+      "BUX"
+    ],
+    "requires": "|Bottled Ship|"
+  },
+  {
+    "name": "Mimic",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [3]",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Olives in Tomb",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [4]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Fig in Tomb",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [5]",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Awakening The Great Flocci Cutscene",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [7]",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "The Great Floccinaucinihilipilification",
+    "comment": "I'm only typing out the entire name this one time because it's the most likely one to fit on the screen in the Manual Client. I'm not doing it anywhere else, so don't ask for it anywhere else. Thanks :P",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [7]",
+      "Bosses"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Flocci Flees, Bottle Obtained Cutscene",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [7]",
+      "Tools"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bottled Ship Tutorial Cutscene",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [8]",
+      "Cutscenesanity"
+    ],
+    "requires": "|Ancient Key:1|"
+  },
+  {
+    "name": "Scorched Statue",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [9]",
+      "Enemies"
+    ],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  {
+    "name": "Cluemer (Ancient Tomb)",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [9]",
+      "Chatsanity"
+    ],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  {
+    "name": "Kiwi in Tomb",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb [10]",
+      "Freestanding Items"
+    ],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  {
+    "name": "Egg in Tomb",
+    "region": "Scorched Dunes",
+    "category": [
+      "Chapter 4",
+      "Ancient Tomb Secret [1]",
+      "Freestanding Items"
+    ],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  {
+    "name": "BUX in Oasis",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Oasis",
+      "BUX"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pie in Oasis",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Oasis",
+      "Freestanding Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pirate",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Oasis",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Flintlock Pirate",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Oasis",
+      "Enemies"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Eavesdropping on Pirates Cutscene",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Oasis",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Meeting Trotter and Calypso Cutscene",
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 4",
+      "Pirate Camp",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pirate Camp (Temporary Chapter 4 Goal)",
+    "region": "Vermillion Village",
+    "category": [
+      "Goal"
+    ],
+    "requires": [],
+    "victory": true
   }
 ]

@@ -5,7 +5,7 @@
     "requires": []
   },
   "Bizville": {
-    "connects_to": ["Roblox HQ", "Plains", "Train", "The Pit"],
+    "connects_to": ["Roblox HQ", "Plains", "Train", "Scorched Dunes", "The Pit"],
     "requires": []
   },
   "Roblox HQ": {
@@ -38,7 +38,7 @@
   },
   "Plains": {
     "connects_to": ["Turitopulis"],
-    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   "Turitopulis": {
     "connects_to": ["Rainforest"],
@@ -53,10 +53,10 @@
     "requires": "|Rocket Boots| AND |Iron Sword|"
   },
   "Train": {
-    "connects_to": ["Spooksville"],
-    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "connects_to": ["Scarytown"],
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
-  "Spooksville": {
+  "Scarytown": {
     "connects_to": ["Telamon's Manor"],
     "requires": []
   },
@@ -70,6 +70,14 @@
   },
   "Dream World": {
     "connects_to": [],
-    "requires": "|Hyperball|"
+    "requires": "|Hyperball| AND |Bounce| AND |'Builderman'|"
+  },
+  "Scorched Dunes": {
+    "connects_to": ["Vermillion Village"],
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'|"
+  },
+  "Vermillion Village": {
+    "connects_to": [],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
   }
 }
