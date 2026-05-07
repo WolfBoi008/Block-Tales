@@ -124,7 +124,7 @@ class CAP(Choice):
 class Cutscenesanity(DefaultOnToggle):
     """
     Enable viewing various cutscenes as Checks.
-    (104 Checks)
+    (105 Checks)
     """
     display_name: "Cutscenesanity"
 

@@ -838,11 +838,11 @@
     "name": "Cruel King DX",
     "region": "Blackrock Castle",
     "category": [
-      "Chapter 3",
+      "Chapter 5",
       "Blackrock Throne Room",
       "Optional Bosses"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Flying Mantis (Enemy)",
@@ -1033,6 +1033,16 @@
       "Cards"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Call: Brad Thaniyel",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 4",
+      "Turitopulis",
+      "Cards"
+    ],
+    "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook| AND |Apple Core| AND |Compost| AND |Onion Ring| AND |The Special|"
   },
   {
     "name": "BUX in Penguin Land",
@@ -2354,12 +2364,12 @@
     "name": "Call: Blackrock King",
     "region": "Bizville",
     "category": [
-      "Chapter 3",
+      "Chapter 5",
       "Blackrock Throne Room",
       "Optional Bosses",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Whole Pizza from Jim",
@@ -4272,379 +4282,6 @@
       "Shopsanity"
     ],
     "requires": []
-  },
-  {
-    "name": "Pit Floor 1",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 2",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 3",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 4",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 5",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 6",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 7",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 8",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 9",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Daze (The Pit)",
-    "region": "The Pit",
-    "category": [
-      "Chapter 1",
-      "The Pit",
-      "Cards"
-    ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
-  },
-  {
-    "name": "Pit Floor 11",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 12",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 13",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 14",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 15",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 16",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 17",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 18",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 19",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Free Ice",
-    "region": "The Pit",
-    "category": [
-      "Chapter 2",
-      "The Pit",
-      "Cards"
-    ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
-  },
-  {
-    "name": "Pit Floor 21",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 22",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 23",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 24",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 25",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 26",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 27",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 28",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 29",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Thorns (The Pit)",
-    "region": "The Pit",
-    "category": [
-      "Chapter 3",
-      "The Pit",
-      "Cards"
-    ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
-  },
-  {
-    "name": "Pit Floor 31",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 32",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 33",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 34",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 35",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 36",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 37",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 38",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Pit Floor 39",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Deep Focus in The Pit",
-    "region": "The Pit",
-    "category": [
-      "Chapter 4",
-      "The Pit",
-      "Cards"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
-  },
-  {
-    "name": "Beat The Pit",
-    "region": "The Pit",
-    "category": [
-      "Goal"
-    ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}",
-    "victory": true
   },
   {
     "name": "News Broadcast Cutscene",
@@ -12751,5 +12388,478 @@
       "Cutscenesanity"
     ],
     "requires": []
+  },
+  {
+    "name": "Leer Speaks to the Korblox Cutscene",
+    "region": "Red Sun River",
+    "category": [
+      "Chapter 4",
+      "The Firebrand",
+      "Cutscenesanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Pit Floor 1",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 2",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 3",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 4",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 5",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 6",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 7",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 8",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 9",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Daze in The Pit",
+    "region": "The Pit",
+    "category": [
+      "Chapter 1",
+      "The Pit",
+      "Cards"
+    ],
+    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+  },
+  {
+    "name": "Pit Floor 11",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 12",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 13",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 14",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 15",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 16",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 17",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 18",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 19",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Free Ice in The Pit",
+    "region": "The Pit",
+    "category": [
+      "Chapter 2",
+      "The Pit",
+      "Cards"
+    ],
+    "requires": "{canReachLocation(Chapter 1 Complete)}"
+  },
+  {
+    "name": "Pit Floor 21",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 22",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 23",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 24",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 25",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 26",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 27",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 28",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 29",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Thorns in The Pit",
+    "region": "The Pit",
+    "category": [
+      "Chapter 3",
+      "The Pit",
+      "Cards"
+    ],
+    "requires": "{canReachLocation(Chapter 2 Complete)}"
+  },
+  {
+    "name": "Pit Floor 31",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 32",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 33",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 34",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 35",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 36",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 37",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 38",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 39",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Deep Focus in The Pit",
+    "region": "The Pit",
+    "category": [
+      "Chapter 4",
+      "The Pit",
+      "Cards"
+    ],
+    "requires": "{canReachLocation(Chapter 3 Complete)}"
+  },
+  {
+    "name": "Pit Floor 41",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 42",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 43",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 44",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 45",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 46",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 47",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 48",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Pit Floor 49",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Defend+ in The Pit",
+    "region": "The Pit",
+    "category": [
+      "Chapter 5",
+      "The Pit"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}"
+  },
+  {
+    "name": "Beat The Pit",
+    "region": "The Pit",
+    "category": [
+      "Goal"
+    ],
+    "requires": "{canReachLocation(Chapter 4 Complete)}",
+    "victory": true
   }
 ]
