@@ -14,7 +14,7 @@
   },
   "Meadows": {
     "connects_to": ["Caves"],
-    "requires": "|Superball| AND {canReachLocation(Wooden Sword)} AND |Wooden Sword|"
+    "requires": "|Superball| AND {CanReachLocation(Wooden Sword)} AND |Wooden Sword|"
   },
   "Caves": {
     "connects_to": ["Roadtown"],
@@ -30,7 +30,7 @@
   },
   "Blackrock Castle": {
     "connects_to": [],
-    "requires": "|Bomb| AND {canReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "|Bomb| AND {CanReachLocation(Dynamite)} AND |Dynamite|"
   },
   "The Pit": {
     "connects_to": [],

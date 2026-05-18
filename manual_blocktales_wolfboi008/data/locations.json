@@ -51,7 +51,7 @@
       "Chapter 1",
       "Levelsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Level 7",
@@ -87,7 +87,7 @@
       "Chapter 3",
       "Levelsanity"
     ],
-    "requires": "{canReachLocation(Green Noob & Purple Noob)}"
+    "requires": "{CanReachLocation(Green Noob & Purple Noob)}"
   },
   {
     "name": "Level 11",
@@ -125,7 +125,7 @@
       "Bizville Arcade",
       "BUX"
     ],
-    "requires": "({YamlEnabled(i_spy_logic)} AND {canReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}"
+    "requires": "({YamlEnabled(i_spy_logic)} AND {CanReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}"
   },
   {
     "name": "Bomb Outside Roblox HQ",
@@ -185,7 +185,7 @@
       "Roblox HQ Balcony",
       "Weapons"
     ],
-    "requires": "{canReachLocation(Red Noob & Blue Noob)}"
+    "requires": "{CanReachLocation(Red Noob & Blue Noob)}"
   },
   {
     "name": "Sharp Nooblet",
@@ -434,14 +434,14 @@
       "Caves [3]",
       "Bosses"
     ],
-    "requires": "|Ball| AND {canReachLocation(Prologue Complete)}"
+    "requires": "|Ball| AND {CanReachLocation(Prologue Complete)}"
   },
   {
     "name": "Loyal Knight",
     "region": "Blackrock Castle",
     "category": [
       "Chapter 1",
-      "Blackrock Dungeons [1]",
+      "Roadtown",
       "Enemies"
     ],
     "requires": []
@@ -812,7 +812,7 @@
       "Bizville Arcade",
       "Cards"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "BUX Past Blackrock Shrink Spot",
@@ -822,7 +822,7 @@
       "Blackrock Bonus Puzzle [2]nd Floor",
       "BUX"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "BUX on Top of In The Cards",
@@ -832,7 +832,7 @@
       "West Bizville",
       "BUX"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Cruel King DX",
@@ -842,7 +842,7 @@
       "Blackrock Throne Room",
       "Optional Bosses"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Flying Mantis (Enemy)",
@@ -1033,6 +1033,16 @@
       "Cards"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "First Aid Kit from Kyoko (Chat About Venomshank)",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 3",
+      "Turitopulis",
+      "Cards"
+    ],
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Call: Brad Thaniyel",
@@ -1312,7 +1322,7 @@
       "Rugged Rainforest [14]",
       "Cards"
     ],
-    "requires": "{canReachLocation(Griefer)} AND |Iron Sword|"
+    "requires": "{CanReachLocation(Griefer)} AND |Iron Sword|"
   },
   {
     "name": "Iron Sword?",
@@ -1495,6 +1505,56 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
   },
   {
+    "name": "Mango 11 From Bigfoot's Tree",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Mango Tree",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
+    "name": "Mango 12 From Bigfoot's Tree",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Mango Tree",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
+    "name": "Mango 13 From Bigfoot's Tree",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Mango Tree",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
+    "name": "Mango 14 From Bigfoot's Tree",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Mango Tree",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
+    "name": "Mango 15 From Bigfoot's Tree",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Mango Tree",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
     "name": "Iron Sword",
     "region": "Rainforest",
     "category": [
@@ -1503,6 +1563,16 @@
       "Weapons"
     ],
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots|"
+  },
+  {
+    "name": "Orange in Sacred Hollow Path",
+    "region": "Rainforest",
+    "category": [
+      "Chapter 2",
+      "Sacred Hollow Path [1]",
+      "Freestanding Items"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword|"
   },
   {
     "name": "Macaron on Second Floor",
@@ -1630,7 +1700,7 @@
       "Mount Blackrock [1]",
       "BUX"
     ],
-    "requires": "{canReachLocation(Iron Sword)} AND |Iron Sword|"
+    "requires": "{CanReachLocation(Iron Sword)} AND |Iron Sword|"
   },
   {
     "name": "Train Ticket",
@@ -1773,7 +1843,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Spiked Zombie",
+    "name": "Sharp Zombie",
     "region": "Scarytown",
     "category": [
       "Chapter 3",
@@ -1993,7 +2063,7 @@
     "requires": "|Spider| AND |Dust|"
   },
   {
-    "name": "Shark Fin Soup from Ghost Chef 1",
+    "name": "Chef's Shark Fin Soup After Turkey",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -2070,7 +2140,7 @@
       "Manor Basement [5]",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND |Train Ticket|"
+    "requires": []
   },
   {
     "name": "Ghostwalker...?",
@@ -2193,7 +2263,7 @@
     "requires": []
   },
   {
-    "name": "Sorrow",
+    "name": "Solitude",
     "region": "Dream World",
     "category": [
       "Chapter 3",
@@ -2203,7 +2273,7 @@
     "requires": []
   },
   {
-    "name": "Cherry Bomb Within Terror",
+    "name": "Cherry Bomb Within Fear",
     "region": "Dream World",
     "category": [
       "Chapter 3",
@@ -2213,7 +2283,7 @@
     "requires": []
   },
   {
-    "name": "Happy HP Within Terror",
+    "name": "Happy HP Within Fear",
     "region": "Dream World",
     "category": [
       "Chapter 3",
@@ -2283,7 +2353,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball|"
   },
   {
-    "name": "Shark Fin Soup from Ghost Chef 2",
+    "name": "Chef's Shark Fin Soup After Hatred",
     "region": "Catacombs",
     "category": [
       "Chapter 3",
@@ -2328,7 +2398,7 @@
       "Library",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND {canReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND {CanReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
   },
   {
     "name": "Bizville Iron Cafe BUX Behind Stage",
@@ -2338,7 +2408,7 @@
       "Iron Cafe",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND {canReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND {CanReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
   },
   {
     "name": "Bizville BUX Outside Iron Cafe",
@@ -2358,7 +2428,7 @@
       "Bizville Job Center",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND {canReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND {CanReachLocation(I Spy Inside Arcade Machine)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)})"
   },
   {
     "name": "Call: Blackrock King",
@@ -2369,7 +2439,7 @@
       "Optional Bosses",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Whole Pizza from Jim",
@@ -2380,7 +2450,7 @@
       "Freestanding Items",
       "Pure Soul"
     ],
-    "requires": "{canReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "{CanReachLocation(Dynamite)} AND |Dynamite|"
   },
   {
     "name": "BUX in Treasure Room",
@@ -2390,7 +2460,7 @@
       "Blackrock Treasure Room",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "BUX in Room Before Cruel King",
@@ -2400,7 +2470,7 @@
       "Blackrock Stairs",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {canReachLocation(Shrinking)} AND |Shrinking| AND |Blackrock Castle Key:3|"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {CanReachLocation(Shrinking)} AND |Shrinking| AND |Blackrock Castle Key:3|"
   },
   {
     "name": "BUX Near Gulab Jamun",
@@ -2410,7 +2480,7 @@
       "Turitopulis Forest Entry",
       "BUX"
     ],
-    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {canReachLocation(Iron Sword)} AND |Iron Sword|"
+    "requires": "(({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}) AND {CanReachLocation(Iron Sword)} AND |Iron Sword|"
   },
   {
     "name": "Gulab Jamun After Ant Hill Past Vegetation",
@@ -2420,7 +2490,7 @@
       "Turitopulis Forest Entry",
       "Freestanding Items"
     ],
-    "requires": "{canReachLocation(Iron Sword)} AND |Iron Sword|"
+    "requires": "{CanReachLocation(Iron Sword)} AND |Iron Sword|"
   },
   {
     "name": "Supreme Mosquito",
@@ -2430,7 +2500,7 @@
       "Mosquito Nest",
       "Optional Bosses"
     ],
-    "requires": "{canReachLocation(Iron Sword)} AND |Iron Sword|"
+    "requires": "{CanReachLocation(Iron Sword)} AND |Iron Sword|"
   },
   {
     "name": "Investor from Supreme Mosquito",
@@ -2441,7 +2511,7 @@
       "Optional Bosses",
       "Cards"
     ],
-    "requires": "{canReachLocation(Supreme Mosquito)}"
+    "requires": "{CanReachLocation(Supreme Mosquito)}"
   },
   {
     "name": "Bizville Item Shop 1",
@@ -2638,7 +2708,7 @@
     "region": "Meadows",
     "category": [
       "Prologue",
-      "Meadows",
+      "Meadows [3]",
       "Shopsanity"
     ],
     "requires": []
@@ -2734,61 +2804,71 @@
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 1",
+    "name": "Roadtown Item Shop 4",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Item Shop",
       "Shopsanity"
     ],
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 2",
+    "name": "Roadtown Inn Item Shop 1",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Inn Shop",
       "Shopsanity"
     ],
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 3",
+    "name": "Roadtown Inn Item Shop 2",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Inn Shop",
       "Shopsanity"
     ],
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 4",
+    "name": "Roadtown Inn Item Shop 3",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Inn Shop",
       "Shopsanity"
     ],
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 5",
+    "name": "Roadtown Inn Item Shop 4",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Inn Shop",
       "Shopsanity"
     ],
     "requires": []
   },
   {
-    "name": "Ye Olde Inn Item Shop 6",
+    "name": "Roadtown Inn Item Shop 5",
     "region": "Roadtown",
     "category": [
       "Chapter 1",
-      "Ye Olde Inn Shop",
+      "Roadtown Inn Shop",
+      "Shopsanity"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Roadtown Inn Item Shop 6",
+    "region": "Roadtown",
+    "category": [
+      "Chapter 1",
+      "Roadtown Inn Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -2851,7 +2931,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "SP Wire (In The Cards)",
@@ -2861,7 +2941,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Speed Spin (In The Cards)",
@@ -2871,7 +2951,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Minimize (In The Cards)",
@@ -2881,7 +2961,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Charge DEF (In The Cards)",
@@ -2891,7 +2971,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Power Rush (In The Cards)",
@@ -2901,7 +2981,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Feel Fine (In The Cards)",
@@ -2911,7 +2991,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Prayer (In The Cards)",
@@ -2921,7 +3001,7 @@
       "Bizville In The Cards Shop",
       "Shopsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Comatose (Turitopulis)",
@@ -2945,6 +3025,16 @@
   },
   {
     "name": "Cure (Turitopulis)",
+    "region": "Turitopulis",
+    "category": [
+      "Chapter 2",
+      "Turitopulis Cards & Weapons Shop",
+      "Shopsanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  {
+    "name": "Feel Fine (Cards & Weapons)",
     "region": "Turitopulis",
     "category": [
       "Chapter 2",
@@ -3614,16 +3704,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Spooky Fruit Stand Shop 7",
-    "region": "Scarytown",
-    "category": [
-      "Chapter 3",
-      "Spooky Fruit Stand Shop",
-      "Shopsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Fridge Raider Shop 1",
     "region": "Telamon's Manor",
     "category": [
@@ -3724,16 +3804,6 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Fridge Raider Shop 11",
-    "region": "Telamon's Manor",
-    "category": [
-      "Chapter 3",
-      "Fridge Raider Shop",
-      "Shopsanity"
-    ],
-    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
-  },
-  {
     "name": "Witches Brew",
     "region": "Telamon's Manor",
     "category": [
@@ -3754,7 +3824,7 @@
     "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
   },
   {
-    "name": "Resurrect (Telamon's Manor)",
+    "name": "Snowball (Telamon's Manor)",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -3915,6 +3985,16 @@
   },
   {
     "name": "Free Ice (Telamon's Manor)",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 3",
+      "Banished Knight's Shop",
+      "Shopsanity"
+    ],
+    "requires": "|Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+  },
+  {
+    "name": "Hitmarker",
     "region": "Telamon's Manor",
     "category": [
       "Chapter 3",
@@ -4238,7 +4318,7 @@
     "region": "Bizville",
     "category": [
       "Prologue",
-      "Pain Shop",
+      "Bizville Pain Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -4248,7 +4328,7 @@
     "region": "Bizville",
     "category": [
       "Prologue",
-      "Pain Shop",
+      "Bizville Pain Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -4258,7 +4338,7 @@
     "region": "Bizville",
     "category": [
       "Prologue",
-      "Pain Shop",
+      "Bizville Pain Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -4268,7 +4348,7 @@
     "region": "Bizville",
     "category": [
       "Prologue",
-      "Pain Shop",
+      "Bizville Pain Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -4278,7 +4358,7 @@
     "region": "Bizville",
     "category": [
       "Prologue",
-      "Pain Shop",
+      "Bizville Pain Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -6832,7 +6912,7 @@
       "Chatsanity",
       "Pure Soul"
     ],
-    "requires": "{canReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "{CanReachLocation(Dynamite)} AND |Dynamite|"
   },
   {
     "name": "Desmund",
@@ -7482,7 +7562,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Admiring Rat",
@@ -7492,7 +7572,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Swimming Rat",
@@ -7502,7 +7582,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Concerned Rat",
@@ -7512,7 +7592,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Suspecting Rat 1",
@@ -7522,7 +7602,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Suspecting Rat 2",
@@ -7532,7 +7612,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Remy",
@@ -7542,7 +7622,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Box Rat",
@@ -7552,7 +7632,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Crispy Rat",
@@ -7562,7 +7642,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Terrified Rat",
@@ -7572,7 +7652,7 @@
       "Bizville Sewers",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Ms. Tori",
@@ -7582,7 +7662,7 @@
       "Mystic Hut",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Prepping for Plainstown Cutscene",
@@ -7592,7 +7672,7 @@
       "East HQ Basement",
       "Cutscenesanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Dingus",
@@ -7602,7 +7682,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Dylan",
@@ -7612,7 +7692,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Roger",
@@ -7622,7 +7702,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Brian",
@@ -7632,7 +7712,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Jolly",
@@ -7642,7 +7722,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Jarred",
@@ -7652,7 +7732,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Quincy (In The Cards)",
@@ -7662,7 +7742,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Nick",
@@ -7672,7 +7752,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Harold",
@@ -7682,7 +7762,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Gene (Shop Owner)",
@@ -7692,7 +7772,7 @@
       "In The Cards",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Quincy (Bizville Airport)",
@@ -7702,7 +7782,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Sean",
@@ -7712,7 +7792,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Marshall",
@@ -7722,7 +7802,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Oswald",
@@ -7732,7 +7812,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Donkle",
@@ -7742,7 +7822,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Derren",
@@ -7752,7 +7832,7 @@
       "Bizville Airport",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Guru (Boss Refights)",
@@ -7762,7 +7842,7 @@
       "The Guru",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Riding Terry's Plane Cutscene",
@@ -7772,7 +7852,7 @@
       "Bizville Airport",
       "Cutscenesanity"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Arriving in Plainstown Cutscene",
@@ -9492,7 +9572,7 @@
       "Central Bizville",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Green Noob & Purple Noob)}"
+    "requires": "{CanReachLocation(Green Noob & Purple Noob)}"
   },
   {
     "name": "Arriving in Scarytown Cutscene",
@@ -10527,7 +10607,7 @@
     "requires": []
   },
   {
-    "name": "Meeting Sorrow Cutscene",
+    "name": "Meeting Solitude Cutscene",
     "region": "Dream World",
     "category": [
       "Chapter 3",
@@ -10537,7 +10617,7 @@
     "requires": []
   },
   {
-    "name": "Sorrow Defeated Cutscene",
+    "name": "Solitude Defeated Cutscene",
     "region": "Dream World",
     "category": [
       "Chapter 3",
@@ -10844,7 +10924,7 @@
       "East HQ Basement",
       "Cutscenesanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "BUX Under Lifeguard Stand",
@@ -10854,7 +10934,7 @@
       "Bizville Docks",
       "BUX"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Kevin (Bizville Docks)",
@@ -10864,7 +10944,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Big Sand-Man",
@@ -10874,7 +10954,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Bobbert",
@@ -10884,7 +10964,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Claus",
@@ -10894,7 +10974,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "William",
@@ -10904,7 +10984,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Lifeguard Leroy",
@@ -10914,7 +10994,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Omoli",
@@ -10924,7 +11004,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Surfer Sam",
@@ -10934,7 +11014,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Surfer Spencer",
@@ -10944,7 +11024,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Dustin",
@@ -10954,7 +11034,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Sandy",
@@ -10964,7 +11044,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Ketsuban",
@@ -10974,7 +11054,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Chris",
@@ -10984,7 +11064,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Rulebreaker Ronny",
@@ -10994,7 +11074,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Lars",
@@ -11004,7 +11084,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Nancy",
@@ -11014,7 +11094,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Henry Blockman",
@@ -11024,7 +11104,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Lilith",
@@ -11034,7 +11114,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Slippery Joe",
@@ -11044,7 +11124,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Giant Squid",
@@ -11054,7 +11134,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Cat (Bizville Docks)",
@@ -11064,7 +11144,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Fisherman Fred",
@@ -11074,7 +11154,7 @@
       "Bizville Docks",
       "Chatsanity"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pie in Scorched Dunes",
@@ -11163,16 +11243,6 @@
       "Chapter 4",
       "Outer Scorched Dunes [4]",
       "Enemies"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Witches Brew in Scorched Dunes",
-    "region": "Scorched Dunes",
-    "category": [
-      "Chapter 4",
-      "Scorched Dunes [1]",
-      "Freestanding Items"
     ],
     "requires": []
   },
@@ -11522,7 +11592,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11532,7 +11602,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11542,7 +11612,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11552,7 +11622,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11562,7 +11632,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11572,7 +11642,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11582,7 +11652,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11592,7 +11662,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11602,7 +11672,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11612,7 +11682,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11622,7 +11692,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11632,7 +11702,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11642,7 +11712,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11652,7 +11722,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11662,7 +11732,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11672,7 +11742,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11682,7 +11752,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11692,7 +11762,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11702,7 +11772,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11712,7 +11782,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Item Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11722,7 +11792,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11732,7 +11802,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11742,7 +11812,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11752,7 +11822,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11762,7 +11832,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11772,7 +11842,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11782,7 +11852,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11792,7 +11862,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11802,7 +11872,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11812,7 +11882,7 @@
     "region": "Vermillion Village",
     "category": [
       "Chapter 4",
-      "Vermillion Village",
+      "Vermillion Village Card Shop",
       "Shopsanity"
     ],
     "requires": []
@@ -11845,7 +11915,7 @@
       "Scorched Ruins (C3)",
       "BUX"
     ],
-    "requires": []
+    "requires": "({YamlEnabled(i_spy_logic)} AND |I Spy|) OR {YamlDisabled(i_spy_logic)}"
   },
   {
     "name": "Pirates' Mutiny After Puzzles Cutscene",
@@ -12406,7 +12476,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 2",
@@ -12415,7 +12485,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 3",
@@ -12424,7 +12494,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 4",
@@ -12433,7 +12503,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 5",
@@ -12442,7 +12512,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 6",
@@ -12451,7 +12521,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 7",
@@ -12460,7 +12530,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 8",
@@ -12469,7 +12539,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 9",
@@ -12478,7 +12548,7 @@
       "Chapter 1",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Daze in The Pit",
@@ -12488,7 +12558,7 @@
       "The Pit",
       "Cards"
     ],
-    "requires": "{canReachLocation(Shrinking)} AND |Shrinking|"
+    "requires": "{CanReachLocation(Shrinking)} AND |Shrinking|"
   },
   {
     "name": "Pit Floor 11",
@@ -12497,7 +12567,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 12",
@@ -12506,7 +12576,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 13",
@@ -12515,7 +12585,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 14",
@@ -12524,7 +12594,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 15",
@@ -12533,7 +12603,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 16",
@@ -12542,7 +12612,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 17",
@@ -12551,7 +12621,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 18",
@@ -12560,7 +12630,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 19",
@@ -12569,7 +12639,7 @@
       "Chapter 2",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Free Ice in The Pit",
@@ -12579,7 +12649,7 @@
       "The Pit",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 1 Complete)}"
+    "requires": "{CanReachLocation(Chapter 1 Complete)}"
   },
   {
     "name": "Pit Floor 21",
@@ -12588,7 +12658,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 22",
@@ -12597,7 +12667,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 23",
@@ -12606,7 +12676,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 24",
@@ -12615,7 +12685,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 25",
@@ -12624,7 +12694,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 26",
@@ -12633,7 +12703,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 27",
@@ -12642,7 +12712,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 28",
@@ -12651,7 +12721,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 29",
@@ -12660,7 +12730,7 @@
       "Chapter 3",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Thorns in The Pit",
@@ -12670,7 +12740,7 @@
       "The Pit",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 2 Complete)}"
+    "requires": "{CanReachLocation(Chapter 2 Complete)}"
   },
   {
     "name": "Pit Floor 31",
@@ -12679,7 +12749,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 32",
@@ -12688,7 +12758,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 33",
@@ -12697,7 +12767,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 34",
@@ -12706,7 +12776,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 35",
@@ -12715,7 +12785,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 36",
@@ -12724,7 +12794,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 37",
@@ -12733,7 +12803,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 38",
@@ -12742,7 +12812,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 39",
@@ -12751,7 +12821,7 @@
       "Chapter 4",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Deep Focus in The Pit",
@@ -12761,7 +12831,7 @@
       "The Pit",
       "Cards"
     ],
-    "requires": "{canReachLocation(Chapter 3 Complete)}"
+    "requires": "{CanReachLocation(Chapter 3 Complete)}"
   },
   {
     "name": "Pit Floor 41",
@@ -12770,7 +12840,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 42",
@@ -12779,7 +12849,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 43",
@@ -12788,7 +12858,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 44",
@@ -12797,7 +12867,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 45",
@@ -12806,7 +12876,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 46",
@@ -12815,7 +12885,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 47",
@@ -12824,7 +12894,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 48",
@@ -12833,7 +12903,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Pit Floor 49",
@@ -12842,7 +12912,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Defend+ in The Pit",
@@ -12851,7 +12921,7 @@
       "Chapter 5",
       "The Pit"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}"
+    "requires": "{CanReachLocation(Chapter 4 Complete)}"
   },
   {
     "name": "Beat The Pit",
@@ -12859,7 +12929,7 @@
     "category": [
       "Goal"
     ],
-    "requires": "{canReachLocation(Chapter 4 Complete)}",
+    "requires": "{CanReachLocation(Chapter 4 Complete)}",
     "victory": true
   }
 ]

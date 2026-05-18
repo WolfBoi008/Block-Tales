@@ -60,7 +60,7 @@ class Shopsanity(DefaultOnToggle):
     """
     Toggle Checks for checking out all of the items within each of the game's shops.
     NOTICE: You do not have to actually buy every individual item in the shops to send their respective Checks.
-    (174 Checks)
+    (205 Checks)
     """
     display_name: "Shopsanity"
 
