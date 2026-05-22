@@ -9,7 +9,11 @@
     "I Spy Logic": {
         "yaml_option": ["i_spy_logic"]
     },
+    "Optional Bosses": {
+        "yaml_option": ["optional_bosses"]
+    },
     "Shopsanity": {
+        "yaml_option": ["shopsanity"],
         "hidden": true
     },
     "Bizville BUX Shop": {
@@ -37,6 +41,7 @@
         "hidden": true
     },
     "Cutscenesanity": {
+        "yaml_option": ["cutscenesanity"],
         "hidden": true
     },
     "Soul Type": {
@@ -80,6 +85,10 @@
     },
     "Chapter 4": {
         "yaml_option": ["chapter4"],
+        "hidden": true
+    },
+    "Chapter 5": {
+        "yaml_option": ["chapter5"],
         "hidden": true
     }
 }

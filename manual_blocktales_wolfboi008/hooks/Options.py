@@ -47,6 +47,23 @@ class ISpyLogic(DefaultOnToggle):
     """
     display_name: "I Spy Logic"
 
+class OptionalBosses(Toggle):
+    """
+    Toggle Items and Checks related to optional boss fights.
+    WARNING: Some of these bosses are very difficult, and their logic is slightly unfair until I implement the
+    game's later Chapters. Enable at your own risk.
+    (4 Checks)
+    """
+    display_name: "Optional Bosses"
+
+class Shopsanity(DefaultOnToggle):
+    """
+    Toggle Checks for checking out all of the items within each of the game's shops.
+    NOTICE: You do not have to actually buy every individual item in the shops to send their respective Checks.
+    (205 Checks)
+    """
+    display_name: "Shopsanity"
+
 class BUXShop(Toggle):
     """
     Enable Checks for the BUX Shop.
@@ -89,7 +106,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (711 Checks)
+    (595 Checks)
     """
     display_name: "Chatsanity"
 
@@ -103,6 +120,13 @@ class CAP(Choice):
     option_i_agree = 0
     option_i_disagree = 1
     display_name: "CAP"
+
+class Cutscenesanity(DefaultOnToggle):
+    """
+    Enable viewing various cutscenes as Checks.
+    (105 Checks)
+    """
+    display_name: "Cutscenesanity"
 
 class ThePit(Toggle):
     """
@@ -134,11 +158,14 @@ class SoulType(Choice):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["solo_mode"] = SoloMode
     options["i_spy_logic"] = ISpyLogic
+    options["optional_bosses"] = OptionalBosses
+    options["shopsanity"] = Shopsanity
     options["bux_shop"] = BUXShop
     options["bux_shop_hints"] = BUXShopHints
     options["levelsanity"] = Levelsanity
     options["fishsanity"] = Fishsanity
     options["chatsanity"] = Chatsanity
+    options["cutscenesanity"] = Cutscenesanity
     options["cap"] = CAP
     options["the_pit"] = ThePit
     options["disable_postgoal_content"] = DisablePostGoalContent
@@ -164,6 +191,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["chapter2"].visibility = Visibility.none
     options.type_hints["chapter3"].visibility = Visibility.none
     options.type_hints["chapter4"].visibility = Visibility.none
+    options.type_hints["chapter5"].visibility = Visibility.none
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)

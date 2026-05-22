@@ -59,19 +59,29 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
+            world.options.chapter5.value = False
+    # If Shopsanity is disabled, disable the BUX Shop.
+    if world.options.shopsanity.value == False:
+        world.options.bux_shop.value = False
     # If the Goal is to finish Chapter 1 and Disable PostGoal Content is enabled, disable Chapter 2 onward.
     if world.options.goal.value == 1:
         if world.options.disable_postgoal_content.value == True:
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
+            world.options.chapter5.value = False
     # If the Goal is to finish Chapter 2 and Disable PostGoal Content is enabled, disable Chapter 3 onward.
     if world.options.goal.value == 2 and world.options.disable_postgoal_content.value == True:
         world.options.chapter3.value = False
         world.options.chapter4.value = False
+        world.options.chapter5.value = False
     # If the Goal is to finish Chapter 3 and Disable PostGoal Content is enabled, disable Chapter 4 onward.
     if world.options.goal.value == 3 and world.options.disable_postgoal_content.value == True:
         world.options.chapter4.value = False
+        world.options.chapter5.value = False
+    # If the Goal is to finish Chapter 4 and Disable PostGoal Content is enabled, disable Chapter 5 onward.
+    if world.options.goal.value == 4 and world.options.disable_postgoal_content.value == True:
+        world.options.chapter5.value = False
     # If the BUX Shop Checks are disabled, remove BUX from the item pool (and disable the hints for those Checks since they don't exist).
     if world.options.bux_shop.value == False:
         world.options.shopsanity_currency.value = False
