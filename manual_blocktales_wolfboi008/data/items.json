@@ -39,6 +39,15 @@
   },
   {
     "count": 1,
+    "name": "Brigand's Sword",
+    "category": [
+      "Chapter 5",
+      "Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Ball",
     "category": [
       "Prologue",
@@ -106,6 +115,15 @@
     "name": "Shovel",
     "category": [
       "Chapter 4",
+      "Tools"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Paintball Gun",
+    "category": [
+      "Chapter 5",
       "Tools"
     ],
     "progression": true
@@ -210,6 +228,15 @@
     "progression": true
   },
   {
+    "count": 3,
+    "name": "Sanctum Shard",
+    "category": [
+      "Chapter 5",
+      "Key Items"
+    ],
+    "progression": true
+  },
+  {
     "count": 1,
     "name": "'Builderman'",
     "category": [
@@ -223,6 +250,15 @@
     "name": "Calypso",
     "category": [
       "Chapter 4",
+      "Allies"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cassie",
+    "category": [
+      "Chapter 5",
       "Allies"
     ],
     "progression": true
