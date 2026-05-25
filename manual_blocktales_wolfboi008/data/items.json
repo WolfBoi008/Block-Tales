@@ -894,6 +894,106 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Bombardment",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Firecrackers",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Slinger",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Rocketman",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mega Rush",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Call: Cassie",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pack Tactics",
+    "category": [
+      "Chapter 5",
+      "Cards",
+      "Co-Op"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-S",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-W",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-O",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "ATK-FX-P",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "filler": true
+  },
+  {
     "count": 50,
     "name": "BUX",
     "category": [
@@ -2170,6 +2270,150 @@
     "name": "Thunder Bolt",
     "category": [
       "Chapter 4",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ketchup",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mustard",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Battle Armor",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "ROFL Waffle",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Smores",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Marshmallow Chirp",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Wafer",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blueberries",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cheese",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Turkey Leg",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Caltrops",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Foam Finger",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shield Sphere",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blueberry Pie",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Grilled Cheese",
+    "category": [
+      "Chapter 5",
+      "Consumables"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mayochup",
+    "category": [
+      "Chapter 5",
       "Consumables"
     ],
     "useful": true
