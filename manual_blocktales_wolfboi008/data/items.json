@@ -301,6 +301,15 @@
   },
   {
     "count": 1,
+    "name": "Windforce",
+    "category": [
+      "Chapter 6",
+      "Swords"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Training Wheels",
     "category": [
       "Pre-Prologue",
@@ -327,7 +336,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "HP+",
     "category": [
       "Chapter 1",
@@ -354,7 +363,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Cure",
     "category": [
       "Chapter 1",
@@ -381,7 +390,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Bodyguard",
     "category": [
       "Prologue",
@@ -391,7 +400,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Refund",
     "category": [
       "Prologue",
@@ -409,7 +418,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "SP Finder",
     "category": [
       "Prologue",
@@ -418,7 +427,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Good Vibes",
     "category": [
       "Prologue",
@@ -437,7 +446,7 @@
     "useful": true
   },
   {
-    "count": 3,
+    "count": 5,
     "name": "Sacrifice",
     "category": [
       "Prologue",
@@ -447,7 +456,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Defender",
     "category": [
       "Prologue",
@@ -474,7 +483,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 5,
     "name": "Pity SP",
     "category": [
       "Prologue",
@@ -511,7 +520,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Happy HP",
     "category": [
       "Chapter 1",
@@ -538,7 +547,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "SP Regen+",
     "category": [
       "Prologue",
@@ -556,7 +565,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Defend+",
     "category": [
       "Prologue",
@@ -574,7 +583,7 @@
     "progression": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "SP Wire",
     "category": [
       "Chapter 2",
@@ -584,7 +593,7 @@
     "useful": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Speed Spin",
     "category": [
       "Chapter 2",
@@ -620,7 +629,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Comatose",
     "category": [
       "Chapter 2",
@@ -693,7 +702,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 3,
     "name": "Investor",
     "category": [
       "Chapter 2",
@@ -703,7 +712,7 @@
     "useful": true
   },
   {
-    "count": 3,
+    "count": 5,
     "name": "Daze",
     "category": [
       "Chapter 1",
@@ -830,7 +839,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Safe Guard",
     "category": [
       "Chapter 1",
@@ -839,7 +848,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Anchor",
     "category": [
       "Prologue",
@@ -858,7 +867,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 5,
     "name": "Infect",
     "category": [
       "Chapter 2",
@@ -867,7 +876,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Hitmarker",
     "category": [
       "Chapter 3",
@@ -912,7 +921,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Slinger",
     "category": [
       "Chapter 5",
@@ -959,6 +968,15 @@
   },
   {
     "count": 1,
+    "name": "Aggressor",
+    "category": [
+      "Chapter 5",
+      "Cards"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "ATK-FX-S",
     "category": [
       "Chapter 5",
@@ -994,7 +1012,7 @@
     "filler": true
   },
   {
-    "count": 50,
+    "count": 60,
     "name": "BUX",
     "category": [
       "Prologue",

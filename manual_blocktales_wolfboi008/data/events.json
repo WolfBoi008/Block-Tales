@@ -28,6 +28,13 @@
                 "Chapter 4"
             ],
             "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Ancient Key:4| AND |Calypso| AND |Shovel|"
+        },
+        {
+            "name": "Chapter 5 Completion",
+            "category": [
+                "Chapter 5"
+            ],
+            "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Ancient Key:4| AND |Calypso| AND |Shovel| AND |Paintball Gun| AND |Cassie| AND |Brigand's Sword| AND |Sanctum Shard:3|"
         }
     ]
 }

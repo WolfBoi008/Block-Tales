@@ -90,5 +90,9 @@
     "Chapter 5": {
         "yaml_option": ["chapter5"],
         "hidden": true
+    },
+    "Chapter 6": {
+        "yaml_option": ["chapter6"],
+        "hidden": true
     }
 }

@@ -14,7 +14,7 @@
   },
   "Meadows": {
     "connects_to": ["Caves"],
-    "requires": "|Superball| AND {CanReachLocation(Wooden Sword)} AND |Wooden Sword|"
+    "requires": "|Superball| AND |Wooden Sword|"
   },
   "Caves": {
     "connects_to": ["Roadtown"],
@@ -30,11 +30,11 @@
   },
   "Blackrock Castle": {
     "connects_to": [],
-    "requires": "|Bomb| AND {CanReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "|Bomb| AND |Dynamite|"
   },
   "The Pit": {
     "connects_to": [],
-    "requires": []
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:2| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   "Plains": {
     "connects_to": ["Turitopulis"],
@@ -54,7 +54,7 @@
   },
   "Train": {
     "connects_to": ["Scarytown"],
-    "requires": "|Chapter 2 Completion|"
+    "requires": "|Chapter 2 Completion| AND |Train Ticket|"
   },
   "Scarytown": {
     "connects_to": ["Telamon's Manor"],
@@ -102,14 +102,14 @@
   },
   "Splintered Skies": {
     "connects_to": ["Astral Isles"],
-    "requires": "|Brigand's Sword|"
+    "requires": "|Brigand's Sword| AND |Sanctum Shard:1|"
   },
   "Astral Isles": {
     "connects_to": [],
-    "requires": []
+    "requires": "|Sanctum Shard:2|"
   },
   "Seventh Sanctum": {
     "connects_to": [],
-    "requires": "|Brigand's Sword| AND |Cassie|"
+    "requires": "|Cassie| AND |Brigand's Sword| AND |Sanctum Shard:3|"
   }
 }

@@ -52,7 +52,7 @@ class OptionalBosses(Toggle):
     Toggle Items and Checks related to optional boss fights.
     WARNING: Some of these bosses are very difficult, and their logic is slightly unfair until I implement the
     game's later Chapters. Enable at your own risk.
-    (4 Checks)
+    (8 Checks)
     """
     display_name: "Optional Bosses"
 
@@ -60,7 +60,7 @@ class Shopsanity(DefaultOnToggle):
     """
     Toggle Checks for checking out all of the items within each of the game's shops.
     NOTICE: You do not have to actually buy every individual item in the shops to send their respective Checks.
-    (205 Checks)
+    (271 Checks)
     """
     display_name: "Shopsanity"
 
@@ -70,6 +70,7 @@ class BUXShop(Toggle):
     Also makes all of the BUX in the pool into Progression items, as the Shop expects you to have all of the BUX
     in the pool before buying any of the Checks (to prevent any potential logical breaks).
     NOTICE: If your Goal is to beat the Prologue, this will be forced to disabled.
+    Also, the BUX Shop in Chapter 5 is not part of the Manual, but will be added when later DEMOs release.
     (20 Checks)
     """
     display_name: "BUX Shop"
@@ -87,7 +88,7 @@ class Levelsanity(DefaultOnToggle):
     Add Level Ups as Checks.
     The Regions used for these are rough estimates on where you may level up.
     They may be slightly altered as I continue to update the Manual.
-    (12 Checks)
+    (22 Checks)
     """
     display_name: "Levelsanity"
 
@@ -106,7 +107,7 @@ class Chatsanity(Toggle):
     """
     Add talking to NPCs as Checks.
     WARNING: If you enable this, prepare for way too much Filler.
-    (595 Checks)
+    (620 Checks)
     """
     display_name: "Chatsanity"
 
@@ -124,7 +125,7 @@ class CAP(Choice):
 class Cutscenesanity(DefaultOnToggle):
     """
     Enable viewing various cutscenes as Checks.
-    (105 Checks)
+    (135 Checks)
     """
     display_name: "Cutscenesanity"
 
@@ -132,7 +133,7 @@ class ThePit(Toggle):
     """
     Adds each floor of the Pit as Checks.
     Only enable if you don't mind potential in logic suffering.
-    (40 Checks)
+    (60 Checks)
     """
     display_name: "The Pit"
 
@@ -147,8 +148,7 @@ class SoulType(Choice):
     """
     How does your soul look on the inside?
     This determines if you're going to be a nice person or a heartless person during your run.
-    For example, Pure expects you to save Accountant Jim with the Dynamite, but Dark expects you to leave him there.
-    (you monster)
+    For example, Pure expects you to save Accountant Jim with the Dynamite and save the townsfolk in Chapter 5, but Dark expects you to leave them there.
     """
     option_pure = 0
     option_dark = 1
@@ -192,6 +192,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["chapter3"].visibility = Visibility.none
     options.type_hints["chapter4"].visibility = Visibility.none
     options.type_hints["chapter5"].visibility = Visibility.none
+    options.type_hints["chapter6"].visibility = Visibility.none
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)
