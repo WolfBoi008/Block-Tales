@@ -238,6 +238,16 @@
   },
   {
     "count": 1,
+    "name": "Manor Attic Key",
+    "category": [
+      "Chapter 5",
+      "Key Items",
+      "Optional Bosses"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "'Builderman'",
     "category": [
       "Chapter 3",
@@ -706,8 +716,7 @@
     "name": "Investor",
     "category": [
       "Chapter 2",
-      "Cards",
-      "Optional Bosses"
+      "Cards"
     ],
     "useful": true
   },
@@ -957,7 +966,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Pack Tactics",
     "category": [
       "Chapter 5",
@@ -971,7 +980,8 @@
     "name": "Aggressor",
     "category": [
       "Chapter 5",
-      "Cards"
+      "Cards",
+      "Optional Bosses"
     ],
     "useful": true
   },

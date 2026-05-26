@@ -13417,15 +13417,6 @@
     "requires": "|Brigand's Sword|"
   },
   {
-    "name": "Defeat Reginald",
-    "region": "Redcliff",
-    "category": [
-      "Goal"
-    ],
-    "requires": "|Brigand's Sword|",
-    "victory": true
-  },
-  {
     "name": "HP+ in Splintered Skies",
     "region": "Splintered Skies",
     "category": [
@@ -14351,6 +14342,25 @@
     "requires": "|Chapter 5 Completion|"
   },
   {
+    "name": "Beat Chapter 5",
+    "region": "Trinity",
+    "category": [
+      "Goal"
+    ],
+    "requires": "|Chapter 5 Completion|",
+    "victory": true
+  },
+  {
+    "name": "Chapter 5 Complete",
+    "region": "Trinity",
+    "category": [
+      "Chapter 5",
+      "Trinity Castle",
+      "Chapters"
+    ],
+    "requires": "|Chapter 5 Completion|"
+  },
+  {
     "name": "Gold Bar from Robur",
     "region": "Trinity",
     "category": [
@@ -14359,6 +14369,60 @@
       "Freestanding Items"
     ],
     "requires": "|Chapter 5 Completion|"
+  },
+  {
+    "name": "Mutant",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 5",
+      "Manor Red Room",
+      "Optional Bosses"
+    ],
+    "requires": "|Chapter 4 Completion| AND |Paintball Gun| AND |Brigand's Sword|"
+  },
+  {
+    "name": "Manor Attic Key",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 5",
+      "Manor Red Room",
+      "Key Items",
+      "Optional Bosses"
+    ],
+    "requires": "|Chapter 4 Completion| AND |Paintball Gun| AND |Brigand's Sword|"
+  },
+  {
+    "name": "Pack Tactics in Manor",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 5",
+      "Manor Attic",
+      "Cards",
+      "Optional Bosses"
+    ],
+    "requires": "|Chapter 4 Completion| AND |Paintball Gun| AND |Brigand's Sword| AND |Manor Attic Key|"
+  },
+  {
+    "name": "Investor in Manor",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 5",
+      "Manor Attic",
+      "Cards",
+      "Optional Bosses"
+    ],
+    "requires": "|Chapter 4 Completion| AND |Paintball Gun| AND |Brigand's Sword| AND |Manor Attic Key|"
+  },
+  {
+    "name": "Slinger in Manor",
+    "region": "Telamon's Manor",
+    "category": [
+      "Chapter 5",
+      "Manor Attic",
+      "Cards",
+      "Optional Bosses"
+    ],
+    "requires": "|Chapter 4 Completion| AND |Paintball Gun| AND |Brigand's Sword| AND |Manor Attic Key|"
   },
   {
     "name": "Pit Floor 1",
