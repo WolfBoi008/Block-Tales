@@ -1,0 +1,115 @@
+{
+  "Future Bizville": {
+    "starting": true,
+    "connects_to": ["Bizville"],
+    "requires": []
+  },
+  "Bizville": {
+    "connects_to": ["Roblox HQ", "Plains", "Train", "Scorched Dunes", "The Heights", "The Pit"],
+    "requires": []
+  },
+  "Roblox HQ": {
+    "connects_to": ["Meadows"],
+    "requires": []
+  },
+  "Meadows": {
+    "connects_to": ["Caves"],
+    "requires": "|Superball| AND |Wooden Sword|"
+  },
+  "Caves": {
+    "connects_to": ["Roadtown"],
+    "requires": []
+  },
+  "Roadtown": {
+    "connects_to": ["Mountains"],
+    "requires": "|Ball|"
+  },
+  "Mountains": {
+    "connects_to": ["Blackrock Castle"],
+    "requires": "|Adventurer ID|"
+  },
+  "Blackrock Castle": {
+    "connects_to": [],
+    "requires": "|Bomb| AND |Dynamite|"
+  },
+  "The Pit": {
+    "connects_to": [],
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:2| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+  },
+  "Plains": {
+    "connects_to": ["Turitopulis"],
+    "requires": "|Chapter 1 Completion|"
+  },
+  "Turitopulis": {
+    "connects_to": ["Rainforest"],
+    "requires": []
+  },
+  "Rainforest": {
+    "connects_to": ["Sacred Hollow"],
+    "requires": "|Jeep Keys|"
+  },
+  "Sacred Hollow": {
+    "connects_to": [],
+    "requires": "|Rocket Boots| AND |Iron Sword|"
+  },
+  "Train": {
+    "connects_to": ["Scarytown"],
+    "requires": "|Chapter 2 Completion| AND |Train Ticket|"
+  },
+  "Scarytown": {
+    "connects_to": ["Telamon's Manor"],
+    "requires": []
+  },
+  "Telamon's Manor": {
+    "connects_to": ["Catacombs"],
+    "requires": []
+  },
+  "Catacombs": {
+    "connects_to": ["Dream World"],
+    "requires": "|Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion|"
+  },
+  "Dream World": {
+    "connects_to": [],
+    "requires": "|Hyperball| AND |Bounce| AND |'Builderman'|"
+  },
+  "Scorched Dunes": {
+    "connects_to": ["Vermillion Village"],
+    "requires": "|Chapter 3 Completion|"
+  },
+  "Vermillion Village": {
+    "connects_to": ["Temple of the Red Sun"],
+    "requires": "|Bottled Ship| AND |Ancient Key:1|"
+  },
+  "Temple of the Red Sun": {
+    "connects_to": ["Red Sun River"],
+    "requires": "|Calypso|"
+  },
+  "Red Sun River": {
+    "connects_to": [],
+    "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  "The Heights": {
+    "connects_to": ["Trinity"],
+    "requires": "|Chapter 4 Completion|"
+  },
+  "Trinity": {
+    "connects_to": ["Redcliff", "Seventh Sanctum"],
+    "requires": "|Paintball Gun|"
+  },
+  "Redcliff": {
+    "connects_to": ["Splintered Skies"],
+    "requires": "|Cassie|"
+  },
+  "Splintered Skies": {
+    "connects_to": ["Astral Isles"],
+    "requires": "|Brigand's Sword| AND |Sanctum Shard:1|"
+  },
+  "Astral Isles": {
+    "connects_to": [],
+    "requires": "|Sanctum Shard:2|"
+  },
+  "Seventh Sanctum": {
+    "connects_to": [],
+    "requires": "|Cassie| AND |Brigand's Sword| AND |Sanctum Shard:3|"
+  }
+}
