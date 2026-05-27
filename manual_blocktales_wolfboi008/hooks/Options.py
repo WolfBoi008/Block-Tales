@@ -51,7 +51,7 @@ class OptionalBosses(Toggle):
     """
     Toggle Items and Checks related to optional boss fights.
     WARNING: Some of these bosses are very difficult, especially if you do them on your own. Enable at your own risk.
-    (13 Checks)
+    (17 Checks)
     """
     display_name: "Optional Bosses"
 
