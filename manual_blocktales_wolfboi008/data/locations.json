@@ -12572,6 +12572,47 @@
     "victory": true
   },
   {
+    "name": "Finn McCool"
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 5",
+      "The Dunes Spot",
+      "Optional Bosses"
+    ]
+    "requires": "|Chapter 4 Completion|"
+  },
+  {
+    "name": "Shotgun Bloke"
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 5",
+      "The Dunes Spot",
+      "Optional Bosses"
+    ]
+    "requires": "|Chapter 4 Completion|"
+  },
+  {
+    "name": "Megaphone Man"
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 5",
+      "The Dunes Spot",
+      "Optional Bosses"
+    ]
+    "requires": "|Chapter 4 Completion|"
+  },
+  {
+    "name": "Aggressor"
+    "region": "Vermillion Village",
+    "category": [
+      "Chapter 5",
+      "The Dunes Spot",
+      "Optional Bosses",
+      "Cards"
+    ]
+    "requires": "|Chapter 4 Completion|"
+  },
+  {
     "name": "Trotter Confronts You Cutscene",
     "region": "Red Sun River",
     "category": [
