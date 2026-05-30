@@ -5,7 +5,7 @@
     "requires": []
   },
   "Bizville": {
-    "connects_to": ["Roblox HQ", "Plains", "Train", "Scorched Dunes", "The Pit"],
+    "connects_to": ["Roblox HQ", "Plains", "Train", "Scorched Dunes", "The Heights", "The Pit"],
     "requires": []
   },
   "Roblox HQ": {
@@ -14,7 +14,7 @@
   },
   "Meadows": {
     "connects_to": ["Caves"],
-    "requires": "|Superball| AND {CanReachLocation(Wooden Sword)} AND |Wooden Sword|"
+    "requires": "|Superball| AND |Wooden Sword|"
   },
   "Caves": {
     "connects_to": ["Roadtown"],
@@ -30,15 +30,15 @@
   },
   "Blackrock Castle": {
     "connects_to": [],
-    "requires": "|Bomb| AND {CanReachLocation(Dynamite)} AND |Dynamite|"
+    "requires": "|Bomb| AND |Dynamite|"
   },
   "The Pit": {
     "connects_to": [],
-    "requires": []
+    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:2| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
   },
   "Plains": {
     "connects_to": ["Turitopulis"],
-    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking|"
+    "requires": "|Chapter 1 Completion|"
   },
   "Turitopulis": {
     "connects_to": ["Rainforest"],
@@ -54,7 +54,7 @@
   },
   "Train": {
     "connects_to": ["Scarytown"],
-    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket|"
+    "requires": "|Chapter 2 Completion| AND |Train Ticket|"
   },
   "Scarytown": {
     "connects_to": ["Telamon's Manor"],
@@ -74,7 +74,7 @@
   },
   "Scorched Dunes": {
     "connects_to": ["Vermillion Village"],
-    "requires": "|Superball| AND |Wooden Sword| AND |Ball| AND |Adventurer ID| AND |Bomb| AND |Dynamite| AND |Blackrock Castle Key:3| AND |Blackrock Diner Key| AND |Mysterious Bottle| AND |Shrinking| AND |Jeep Keys| AND |Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'|"
+    "requires": "|Chapter 3 Completion|"
   },
   "Vermillion Village": {
     "connects_to": ["Temple of the Red Sun"],
@@ -87,5 +87,29 @@
   "Red Sun River": {
     "connects_to": [],
     "requires": "|Ancient Key:4| AND |Shovel|"
+  },
+  "The Heights": {
+    "connects_to": ["Trinity"],
+    "requires": "|Chapter 4 Completion|"
+  },
+  "Trinity": {
+    "connects_to": ["Redcliff", "Seventh Sanctum"],
+    "requires": "|Paintball Gun|"
+  },
+  "Redcliff": {
+    "connects_to": ["Splintered Skies"],
+    "requires": "|Cassie|"
+  },
+  "Splintered Skies": {
+    "connects_to": ["Astral Isles"],
+    "requires": "|Brigand's Sword| AND |Sanctum Shard:1|"
+  },
+  "Astral Isles": {
+    "connects_to": [],
+    "requires": "|Sanctum Shard:2|"
+  },
+  "Seventh Sanctum": {
+    "connects_to": [],
+    "requires": "|Cassie| AND |Brigand's Sword| AND |Sanctum Shard:3|"
   }
 }
