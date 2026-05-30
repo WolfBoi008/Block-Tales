@@ -528,7 +528,7 @@
   },
   {
     "name": "Loyal Knight",
-    "region": "Blackrock Castle",
+    "region": "Roadtown",
     "category": [
       "Chapter 1",
       "Roadtown",
@@ -4249,201 +4249,201 @@
     "name": "Bodyguard (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Refund (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Charge (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "SP Finder (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Good Vibes (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Deep Focus (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Sacrifice (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Defender (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "HP Drain (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "SP Drain (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Pity SP (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Daze (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Lucky Start (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Item+ (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Anchor (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "SP Saver (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Resurrect (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "SP Regen+ (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Ante Up (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Defend+ (BUX Shop)",
     "region": "Bizville",
     "category": [
-      "Prologue",
+      "Chapter 5",
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|"
   },
   {
     "name": "Gusto",
@@ -12572,44 +12572,44 @@
     "victory": true
   },
   {
-    "name": "Finn McCool"
+    "name": "Finn McCool",
     "region": "Vermillion Village",
     "category": [
       "Chapter 5",
       "The Dunes Spot",
       "Optional Bosses"
-    ]
+    ],
     "requires": "|Chapter 4 Completion|"
   },
   {
-    "name": "Shotgun Bloke"
+    "name": "Shotgun Bloke",
     "region": "Vermillion Village",
     "category": [
       "Chapter 5",
       "The Dunes Spot",
       "Optional Bosses"
-    ]
+    ],
     "requires": "|Chapter 4 Completion|"
   },
   {
-    "name": "Megaphone Man"
+    "name": "Megaphone Man",
     "region": "Vermillion Village",
     "category": [
       "Chapter 5",
       "The Dunes Spot",
       "Optional Bosses"
-    ]
+    ],
     "requires": "|Chapter 4 Completion|"
   },
   {
-    "name": "Aggressor"
+    "name": "Aggressor",
     "region": "Vermillion Village",
     "category": [
       "Chapter 5",
       "The Dunes Spot",
       "Optional Bosses",
       "Cards"
-    ]
+    ],
     "requires": "|Chapter 4 Completion|"
   },
   {

@@ -65,27 +65,35 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options.shopsanity.value == False:
         world.options.bux_shop.value = False
     # If the Goal is to finish Chapter 1 and Disable PostGoal Content is enabled, disable Chapter 2 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 1:
         if world.options.disable_postgoal_content.value == True:
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
             world.options.chapter5.value = False
+            world.options.bux_shop.value = False
             world.options.chapter6.value = False
     # If the Goal is to finish Chapter 2 and Disable PostGoal Content is enabled, disable Chapter 3 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 2 and world.options.disable_postgoal_content.value == True:
         world.options.chapter3.value = False
         world.options.chapter4.value = False
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 3 and Disable PostGoal Content is enabled, disable Chapter 4 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 3 and world.options.disable_postgoal_content.value == True:
         world.options.chapter4.value = False
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 4 and Disable PostGoal Content is enabled, disable Chapter 5 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 4 and world.options.disable_postgoal_content.value == True:
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 5 and Disable PostGoal Content is enabled, disable Chapter 6 onward.
     if world.options.goal.value == 5 and world.options.disable_postgoal_content.value == True:
