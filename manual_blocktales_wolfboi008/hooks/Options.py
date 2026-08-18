@@ -68,7 +68,7 @@ class BUXShop(Toggle):
     Enable Checks for the BUX Shop.
     Also makes all of the BUX in the pool into Progression items, as the Shop expects you to have all of the BUX
     in the pool before buying any of the Checks (to prevent any potential logical breaks).
-    NOTICE: If your Goal is to beat the Prologue, this will be forced to disabled.
+    NOTICE: If your Goal is pre-Chapter 5 and Disable PostGoal Content is enabled, this will be forced to disabled.
     Also, the BUX Shop in Chapter 5 is not part of the Manual, but will be added when later DEMOs release.
     (20 Checks)
     """

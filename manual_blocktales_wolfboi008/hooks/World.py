@@ -46,10 +46,13 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # If Chatsanity is enabled, but the CAP hasn't been "signed", force fail generation.
     if world.options.chatsanity.value == True and world.options.cap.value == 1:
         raise OptionError(f"{world.player_name} must agree to the CAP form in order to enable Chatsanity. Please either agree to the CAP form or disable Chatsanity. Thank you.")
-    # If the Soul Type is set to Pure, disable all Dark-exclusive Checks, and vice versa.
+    # If the Soul Type is set to Pure, enable Pure Checks and disable all Dark-exclusive Checks.
     if world.options.soul_type.value == 0:
+        world.options.pure_soul.value = True
         world.options.dark_soul.value = False
+    # Opposite of the previous "if" statement if the Soul Type is set to Dark.
     if world.options.soul_type.value == 1:
+        world.options.dark_soul.value = True
         world.options.pure_soul.value = False
     # If the Goal is to finish the Prologue, remove the BUX Shop. Also disables Chapter 1 onward if Disable PostGoal Content is enabled.
     if world.options.goal.value == 0:
@@ -65,27 +68,35 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options.shopsanity.value == False:
         world.options.bux_shop.value = False
     # If the Goal is to finish Chapter 1 and Disable PostGoal Content is enabled, disable Chapter 2 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 1:
         if world.options.disable_postgoal_content.value == True:
             world.options.chapter2.value = False
             world.options.chapter3.value = False
             world.options.chapter4.value = False
             world.options.chapter5.value = False
+            world.options.bux_shop.value = False
             world.options.chapter6.value = False
     # If the Goal is to finish Chapter 2 and Disable PostGoal Content is enabled, disable Chapter 3 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 2 and world.options.disable_postgoal_content.value == True:
         world.options.chapter3.value = False
         world.options.chapter4.value = False
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 3 and Disable PostGoal Content is enabled, disable Chapter 4 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 3 and world.options.disable_postgoal_content.value == True:
         world.options.chapter4.value = False
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 4 and Disable PostGoal Content is enabled, disable Chapter 5 onward.
+    # Also disables the BUX Shop due to it logically being accessed in Chapter 5.
     if world.options.goal.value == 4 and world.options.disable_postgoal_content.value == True:
         world.options.chapter5.value = False
+        world.options.bux_shop.value = False
         world.options.chapter6.value = False
     # If the Goal is to finish Chapter 5 and Disable PostGoal Content is enabled, disable Chapter 6 onward.
     if world.options.goal.value == 5 and world.options.disable_postgoal_content.value == True:
