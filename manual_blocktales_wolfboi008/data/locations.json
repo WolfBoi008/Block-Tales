@@ -1172,7 +1172,8 @@
     "category": [
       "Chapter 4",
       "Turitopulis",
-      "Cards"
+      "Cards",
+      "Pure Soul"
     ],
     "requires": "|Rocket Boots| AND |Iron Sword| AND |Train Ticket| AND |Spider| AND |Dust| AND |Raw Turkey| AND |Ghost Potion| AND |Hyperball| AND |Bounce| AND |'Builderman'| AND |Bottled Ship| AND |Cookbook| AND |Apple Core| AND |Compost| AND |Onion Ring| AND |The Special|"
   },
@@ -4243,7 +4244,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Refund (BUX Shop)",
@@ -4253,7 +4255,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Charge (BUX Shop)",
@@ -4263,7 +4266,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "SP Finder (BUX Shop)",
@@ -4273,7 +4277,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Good Vibes (BUX Shop)",
@@ -4283,7 +4288,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Deep Focus (BUX Shop)",
@@ -4293,7 +4299,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Sacrifice (BUX Shop)",
@@ -4303,7 +4310,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Defender (BUX Shop)",
@@ -4313,7 +4321,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "HP Drain (BUX Shop)",
@@ -4323,7 +4332,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "SP Drain (BUX Shop)",
@@ -4333,7 +4343,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Pity SP (BUX Shop)",
@@ -4343,7 +4354,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Daze (BUX Shop)",
@@ -4353,7 +4365,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Lucky Start (BUX Shop)",
@@ -4363,7 +4376,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Item+ (BUX Shop)",
@@ -4373,7 +4387,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Anchor (BUX Shop)",
@@ -4383,7 +4398,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "SP Saver (BUX Shop)",
@@ -4393,7 +4409,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Resurrect (BUX Shop)",
@@ -4403,7 +4420,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "SP Regen+ (BUX Shop)",
@@ -4413,7 +4431,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Ante Up (BUX Shop)",
@@ -4423,7 +4442,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Defend+ (BUX Shop)",
@@ -4433,7 +4453,8 @@
       "Bizville BUX Shop",
       "Shopsanity"
     ],
-    "requires": "|BUX:50| AND |Chapter 4 Completion|"
+    "requires": "|BUX:50| AND |Chapter 4 Completion|",
+    "scoutable": true
   },
   {
     "name": "Gusto",

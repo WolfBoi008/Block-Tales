@@ -14,7 +14,7 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
+from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, remove_specific_item
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
@@ -38,8 +38,15 @@ import logging
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
     return False
 
+def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
+    """
+    This is the earliest hook called during generation, before anything else is done.
+    Use it to check or modify incompatible options, or to set up variables for later use.
+    """
+    pass
+
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
-def before_create_regions(world: World, multiworld: MultiWorld, player: int):    
+def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # If Solo Mode is enabled, disable all Items that are "Co-op Only".
     if world.options.solo_mode.value == True:
         world.options.co_op.value = False
@@ -101,10 +108,9 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # If the Goal is to finish Chapter 5 and Disable PostGoal Content is enabled, disable Chapter 6 onward.
     if world.options.goal.value == 5 and world.options.disable_postgoal_content.value == True:
         world.options.chapter6.value = False
-    # If the BUX Shop Checks are disabled, remove BUX from the item pool (and disable the hints for those Checks since they don't exist).
+    # If the BUX Shop Checks are disabled, remove BUX from the item pool.
     if world.options.bux_shop.value == False:
         world.options.shopsanity_currency.value = False
-        world.options.bux_shop_hints.value = False
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -119,10 +125,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
-                # If the BUX Shop hints are enabled and a Location contains the string "(BUX Shop)", make the associated location hinted when the Multiworld is made.
-                if world.options.bux_shop_hints.value == 1 and "(BUX Shop)" in location.name:
-                    world.options.start_location_hints.value.add(location.name)
-    
+
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
 # {"Item Name": 5} <- This will create qty 5 items using all the default settings
@@ -150,7 +153,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+        remove_specific_item(item_pool, item)
 
     return item_pool
 
@@ -160,7 +163,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
     # item_to_place = next(i for i in item_pool if i.name == "Item Name")
     # location.place_locked_item(item_to_place)
-    # item_pool.remove(item_to_place)
+    # remove_specific_item(item_pool, item_to_place)
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
@@ -265,15 +268,6 @@ def before_extend_hint_information(hint_data: dict[int, dict[int, str]], world: 
 
 def after_extend_hint_information(hint_data: dict[int, dict[int, str]], world: World, multiworld: MultiWorld, player: int) -> None:
     pass
-
-
-def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
-    """
-    This is the earliest hook called during generation, before anything else is done.
-    Use it to check or modify incompatible options, or to set up variables for later use.
-    """
-    pass
-
 
 def hook_interpret_slot_data(world: World, player: int, slot_data: dict[str, Any]) -> dict[str, Any]:
     """

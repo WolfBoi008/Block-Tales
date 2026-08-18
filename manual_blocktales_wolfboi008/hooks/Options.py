@@ -74,14 +74,6 @@ class BUXShop(Toggle):
     """
     display_name: "BUX Shop"
 
-class BUXShopHints(DefaultOnToggle):
-    """
-    Toggle if the BUX Shop Checks will be automatically hinted at the start of the Multiworld.
-    Disable if you want the items that are held in your BUX Shop to be a mystery...
-    Obviously this will be disabled if the BUX Shop is disabled.
-    """
-    display_name: "BUX Shop Hints"
-
 class Levelsanity(DefaultOnToggle):
     """
     Add Level Ups as Checks.
@@ -160,12 +152,11 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["optional_bosses"] = OptionalBosses
     options["shopsanity"] = Shopsanity
     options["bux_shop"] = BUXShop
-    options["bux_shop_hints"] = BUXShopHints
     options["levelsanity"] = Levelsanity
     options["fishsanity"] = Fishsanity
     options["chatsanity"] = Chatsanity
-    options["cutscenesanity"] = Cutscenesanity
     options["cap"] = CAP
+    options["cutscenesanity"] = Cutscenesanity
     options["the_pit"] = ThePit
     options["disable_postgoal_content"] = DisablePostGoalContent
     options["soul_type"] = SoulType
